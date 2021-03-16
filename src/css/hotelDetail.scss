@@ -52,10 +52,16 @@
   margin-bottom: 50px !important;
 }
 
+.star-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .hoteldetail-stars {
-  position: absolute;
-  top: 510px;
-  left: 440px;
+  position: absolute !important;
+  right: 10px;
+  bottom: 0px;
 }
 
 .hoteldetail-covid {
@@ -81,4 +87,32 @@
 
 .hoteldetail-button {
   height: 40px !important;
+}
+
+@media only screen and (max-width: 1900px) {
+  .hoteldetail-main {
+    margin-left: auto;
+  }
+  .hoteldetail-title {
+    font-size: 25px;
+  }
+  .hoteldetail-main-columns {
+    flex-direction: column;
+  }
+  .hoteldetail-main-information {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .hoteldetail-buttons {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .hoteldetail-main {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .hoteldetail-image{
+    margin-left: auto;
+    height: 300px;
+  }
 }

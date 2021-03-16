@@ -1,42 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Eczar&display=swap");
 
-.carrousel-div{
-    height: 350px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 50px;
+.carrousel-div {
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
 
-.carrousel-div-1 {
-  background-image: url("https://www.hotelplayagolf.com/dms/monoHotel-HotelPlayaGolf/galleryNew/2.jpg");
+.legend {
+  top: 40px !important;
+  bottom: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  margin-left: auto !important;
+  width: 100% !important;
+  background: rgba(0, 0, 0, 0.445) !important;
+  opacity: 100 !important;
+  border-radius: 0px !important;
 }
 
-.carrousel-div-2 {
-  background-image: url("https://d2poxrheyfxwbo.cloudfront.net/hotel/39cbd6e7-1bf7-4dce-b48a-ad95b11fa03a");
+.carrousel-image {
+  width: 10%;
+  top: 0;
+  position: absolute;
 }
 
-.carrousel-div-3 {
-  background-image: url("https://newsmallorca.com/wp-content/uploads/2019/12/Piscina.jpg");
+.carrousel-title {
+  font-size: 50px !important;
+  font-weight: 500 !important;
+  font-family: "Eczar", serif !important;
+  color: white !important;
 }
 
-.carrousel-div-4 {
-  background-image: url("https://static.barcelo.com/content/dam/bhg/master/es/hoteles/spain/baleares/mallorca/occidental-playa-de-palma/main-photos/hotel/oppal_pool_103.jpg");
+.imagen-hotel-carrousel {
+  height: 350px;
+  object-fit: cover;
 }
 
-.carrousel-image{
-    width: 10%;
-    top: 0;
-    position: absolute;
-}
-
-.carrousel-title{
-    width: 100%;
-    text-align: center;
-    margin-top: 15px;
-    font-size: 50px;
-    font-weight: 500;
-    font-family: 'Eczar', serif;
-    background-color: rgba(0, 0, 0, 0.534);
-    color: white;
+.carrousel-main {
+  margin-bottom: 50px;
 }

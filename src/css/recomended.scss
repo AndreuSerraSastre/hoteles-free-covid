@@ -67,3 +67,10 @@
 .titulo-popup{
   font-weight: 600;
 }
+
+
+@media only screen and (max-width: 1900px) {
+  .recomended-main {
+    margin: $alturaHeader/2 $marginrighleft/10 0 $marginrighleft/10;
+  }
+}

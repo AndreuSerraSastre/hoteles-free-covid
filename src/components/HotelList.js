@@ -13,14 +13,14 @@ const HotelList = ({ Horizontal }) => {
   }
 
   return (
-    <div>
+    <div className={`PerfectScrollbar-MAIN${Horizontal}`}>
+      <Select placeholder="Ordernar por: " className="PerfectScrollbar-select" onChange={handleChange} allowClear>
+        <Option value="asc-stars">Mejor puntuación</Option>
+        <Option value="desc-stars">Peor puntuación</Option>
+        <Option value="namea-z">Alfabéticamente</Option>
+        <Option value="coments">Más comentados</Option>
+      </Select>
       <div className={`PerfectScrollbar${Horizontal}`}>
-        <Select placeholder="Ordernar por: " className="PerfectScrollbar-select" onChange={handleChange}>
-          <Option value="asc-stars">Mejor puntuación</Option>
-          <Option value="desc-stars">Peor puntuación</Option>
-          <Option value="namea-z">Alfabéticamente</Option>
-          <Option value="namea-z">Más comentados</Option>
-        </Select>
         <HotelListElement Horizontal={Horizontal}></HotelListElement>
         <HotelListElement Horizontal={Horizontal}></HotelListElement>
         <HotelListElement Horizontal={Horizontal}></HotelListElement>

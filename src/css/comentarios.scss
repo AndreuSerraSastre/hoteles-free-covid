@@ -1,0 +1,57 @@
+.ant-modal-body {
+  padding: 0 24px !important;
+}
+
+.lista-comentarios {
+  height: 400px;
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #bebebe9a;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgb(134, 134, 134);
+  }
+}
+
+.comentario-usuario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comentario-avatar {
+  margin-right: 15px !important;
+  background-color: rgb(75, 134, 75) !important;
+}
+
+.comentario-usuario-info-nombre {
+  margin-bottom: 0em;
+}
+
+.add-comentario {
+  margin-bottom: 25px !important;
+}
+
+.form-comentario {
+  margin-bottom: 0px !important;
+}
+
+.react-stars{
+    &:focus {
+        outline: 0px !important;
+      }
+}
+
+.starfocus{
+    margin-bottom: 10px;
+}

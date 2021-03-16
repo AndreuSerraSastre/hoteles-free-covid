@@ -45,12 +45,12 @@ const Recomended = () => {
                         {!hotel ?
                             <div>
                                 <h4>Distancia: {CalcularDistancia(lt, lg)} km</h4>
-                                <h4>Lat: {lt?.toFixed(4)} Lon: {lg?.toFixed(4)}</h4>
+                                <h4>Lat: {lt?.toFixed(2)} Lon: {lg?.toFixed(2)}</h4>
                             </div>
                             :
                             <div>
-                                <h4>Lat: {lat?.toFixed(4)}</h4>
-                                <h4>Lon: {lng?.toFixed(4)}</h4>
+                                <h4>Lat: {lat?.toFixed(2)}</h4>
+                                <h4>Lon: {lng?.toFixed(2)}</h4>
                             </div>
                         }
 
@@ -133,6 +133,8 @@ const Recomended = () => {
                 </div>
                 <div className="map-container" ref={mapContainer} />
             </div>
+            <br></br>
+            <br></br>
         </div>
     );
 }

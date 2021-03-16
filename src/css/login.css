@@ -1,5 +1,5 @@
 .login-form {
-    margin-top:30px;
+    padding-top:50px;
     max-width: 300px;
 }
 
@@ -19,10 +19,6 @@
 
 .login-form-button {
     width: 100%;
-}
-
-.ant-modal-footer {
-    display: none;
 }
 
 .ant-modal {

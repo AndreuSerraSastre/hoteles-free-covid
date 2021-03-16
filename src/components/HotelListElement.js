@@ -12,14 +12,16 @@ const HotelListElement = ({ Horizontal }) => {
                 <div className="Hotel-list-element-image" style={{
                     backgroundImage: `url(${process.env.PUBLIC_URL + '/images/best-rooftop-views-palma-nakar-hotel-mallorca.jpg'})`
                 }}>
-                    <ReactStars
-                        classNames="Hotel-list-element-stars"
-                        count={5}
-                        value={3}
-                        edit={false}
-                        size={30}
-                        activeColor="#fcc42b"
-                    />
+                    <div className="star-main">
+                        <ReactStars
+                            classNames="Hotel-list-element-stars"
+                            count={5}
+                            value={3}
+                            edit={false}
+                            size={30}
+                            activeColor="#fcc42b"
+                        />
+                    </div>
                 </div>
             </div>
             {!Horizontal ?

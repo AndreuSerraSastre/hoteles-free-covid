@@ -1,9 +1,13 @@
 import { Button } from 'antd';
-import React from 'react';
+import React, { useState } from 'react';
 import ReactStars from "react-rating-stars-component";
+import useWindowDimensions from '../hook/useWindowDimensions';
 import './../css/hotelDetail.scss'
+import Comentarios from './Comentarios';
 
 const HotelDetail = () => {
+    const { height, width } = useWindowDimensions();
+    const [visible, setVisible] = useState(false);
 
     return (
         <div className="hoteldetail-main">
@@ -26,7 +30,7 @@ const HotelDetail = () => {
                             </ul>
                             <div className="hoteldetail-buttons">
                                 <Button className="hoteldetail-button">Ir al sitio</Button>
-                                <Button className="hoteldetail-button">Ver comentarios</Button>
+                                <Button className="hoteldetail-button" onClick={() => setVisible(true)}>Ver comentarios</Button>
                                 <Button className="hoteldetail-button">Mapa</Button>
                             </div>
                         </div>
@@ -34,15 +38,18 @@ const HotelDetail = () => {
                     <div className="hoteldetail-image" style={{
                         backgroundImage: `url(${process.env.PUBLIC_URL + '/images/best-rooftop-views-palma-nakar-hotel-mallorca.jpg'})`
                     }}>
-                        <ReactStars
-                            classNames="hoteldetail-stars"
-                            count={5}
-                            value={3}
-                            edit={false}
-                            size={60}
-                            activeColor="#fcc42b"
-                        />
+                        <div className="star-main">
+                            <ReactStars
+                                classNames="hoteldetail-stars"
+                                count={5}
+                                value={3}
+                                edit={false}
+                                size={width < 1900 ? 40 : 60}
+                                activeColor="#fcc42b"
+                            />
+                        </div>
                     </div>
+                    <Comentarios visible={visible} setVisible={setVisible}></Comentarios>
                 </div>
             </div>
         </div>

@@ -1,40 +1,22 @@
 import React from 'react';
+import { useEffect, useState } from 'react/cjs/react.production.min';
 import Carrousel from '../components/Carrousel';
 import HotelDetail from '../components/HotelDetail';
 import HotelList from '../components/HotelList';
+import useWindowDimensions from '../hook/useWindowDimensions';
 import './../css/home.scss'
 
 const Home = () => {
-
-
-    // function getWindowDimensions() {
-    //     const { innerWidth: width, innerHeight: height } = window;
-    //     return {
-    //       width,
-    //       height
-    //     };
-    //   }
-
-    //   export default function useWindowDimensions() {
-    //     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
-
-    //     useEffect(() => {
-    //       function handleResize() {
-    //         setWindowDimensions(getWindowDimensions());
-    //       }
-
-    //       window.addEventListener('resize', handleResize);
-    //       return () => window.removeEventListener('resize', handleResize);
-    //     }, []);
-
-    //     return windowDimensions;
-    //   }
+    const { height, width } = useWindowDimensions();
 
     return (
         <div className="Home-main">
             <Carrousel></Carrousel>
             <div className="Home-hotel">
-                <HotelList Horizontal={""}></HotelList>
+                {width < 1900 ?
+                    <HotelList Horizontal={"Horizontal"}></HotelList> :
+                    <HotelList Horizontal={""}></HotelList>
+                }
                 <HotelDetail></HotelDetail>
             </div>
         </div>

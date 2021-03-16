@@ -8,11 +8,13 @@ import Modal from 'antd/lib/modal/Modal';
 import { useState } from 'react';
 import LoginDemo from './Login';
 import Register from './Register';
+import useWindowDimensions from './../hook/useWindowDimensions'
 
 const Header = () => {
 
     const [ModalVisible, setModalVisible] = useState(false);
     const [Registrarse, setRegistrarse] = useState(false);
+    const { height, width } = useWindowDimensions();
 
     const onSearch = (text) => {
         console.log(text);
@@ -40,21 +42,26 @@ const Header = () => {
 
     return (
         <header className="header-main">
-            <img alt="home" className="header-image" onClick={goHome} src={process.env.PUBLIC_URL + '/images/signo-de-hotel.png'}></img>
+            {width < 1900 ?
+                <></> :
+                <img alt="home" className="header-image" onClick={goHome} src={process.env.PUBLIC_URL + '/images/signo-de-hotel.png'}></img>
+            }
             <Search placeholder="Buscar..." allowClear onSearch={onSearch} style={{ width: 400 }} />
             <div className="header-buttons">
                 <Dropdown className="header-menu" overlay={menu} placement="bottomCenter" arrow>
                     <h3 onClick={e => e.preventDefault()}>
-                        Menú <DownOutlined />
+                        Menú 
                     </h3>
                 </Dropdown>
-                <h3 className="header-login" onClick={() => setModalVisible(true)}>Iniciar sesión</h3>
+                <h3 className="header-login" onClick={() => setModalVisible(true)}>Login</h3>
             </div>
             <Modal
                 centered
                 visible={ModalVisible}
                 onOk={() => setModalVisible(false)}
                 onCancel={() => setModalVisible(false)}
+                cancelButtonProps={{ style: { display: 'none' } }}
+                okButtonProps={{ style: { display: 'none' } }}
             >
                 {!Registrarse ?
                     <LoginDemo setRegistrarse={setRegistrarse}></LoginDemo> :

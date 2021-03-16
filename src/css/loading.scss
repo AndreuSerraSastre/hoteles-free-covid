@@ -1,0 +1,15 @@
+.titulo-loading {
+  margin: 0;
+  margin-left: 20px;
+  color: rgb(211, 208, 20);
+}
+
+.modal-loading-main {
+  .ant-modal-content {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .ant-modal-close {
+    display: none;
+  }
+}

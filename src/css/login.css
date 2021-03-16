@@ -1,0 +1,36 @@
+.login-form {
+    margin-top:30px;
+    max-width: 300px;
+}
+
+.login-form-forgot {
+    float: right;
+    color: #47acff;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.login-form-register {
+    color: #47acff;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+.ant-modal-footer {
+    display: none;
+}
+
+.ant-modal {
+    width: 300px !important;
+}
+
+.login-form-register-main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+}

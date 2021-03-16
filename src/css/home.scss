@@ -1,0 +1,17 @@
+@import "../constants/constants";
+
+.Home-main {
+  margin: $alturaHeader/2 $marginrighleft 0 $marginrighleft;
+}
+
+.Home-hotel {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1900px) {
+  .Home-hotel {
+    display: flex;
+    flex-direction: column;
+  }
+}

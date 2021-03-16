@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+.carrousel-div{
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.carrousel-div-1 {
+  background-image: url("https://www.hotelplayagolf.com/dms/monoHotel-HotelPlayaGolf/galleryNew/2.jpg");
+}
+
+.carrousel-div-2 {
+  background-image: url("https://d2poxrheyfxwbo.cloudfront.net/hotel/39cbd6e7-1bf7-4dce-b48a-ad95b11fa03a");
+}
+
+.carrousel-div-3 {
+  background-image: url("https://newsmallorca.com/wp-content/uploads/2019/12/Piscina.jpg");
+}
+
+.carrousel-div-4 {
+  background-image: url("https://static.barcelo.com/content/dam/bhg/master/es/hoteles/spain/baleares/mallorca/occidental-playa-de-palma/main-photos/hotel/oppal_pool_103.jpg");
+}
+
+.carrousel-image{
+    width: 10%;
+    top: 0;
+    position: absolute;
+}
+
+.carrousel-title{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Eczar', serif;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+}

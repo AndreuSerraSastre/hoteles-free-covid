@@ -1,0 +1,69 @@
+@import "../constants/constants";
+
+.recomended-main {
+  margin: $alturaHeader/2 $marginrighleft 0 $marginrighleft;
+}
+
+.map-container-main {
+  margin-top: 25px;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.map-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #ffffff;
+  padding: 6px 12px;
+  font: 15px/24px monospace;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+}
+
+.mapboxgl-control-container {
+  display: none;
+}
+
+.mapboxgl-popup-close-button {
+  &:focus {
+    outline: 0px;
+  }
+}
+
+.mapboxgl-canvas {
+  &:focus {
+    outline: 0px;
+  }
+}
+
+.mapboxgl-popup-content{
+  width: 300px;
+  height: 120px;
+}
+
+.imagen-popup{
+  width: 100px;
+  height: 100px;
+  margin-right: 8px;
+}
+
+.popup-main{
+  display: flex;
+  flex-direction: row;
+}
+
+.titulo-popup{
+  font-weight: 600;
+}

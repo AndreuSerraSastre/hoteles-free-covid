@@ -9,7 +9,7 @@ import ReactDOMServer from "react-dom/server";
 mapboxgl.workerClass = MapboxWorker;
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5kcmV1c2VycmEiLCJhIjoiY2ttNTZqazA1MGJrZzJxa256ZG9oeHVkMCJ9.kNz4v3PWG42gsH0atnjqog';
 
-const Recomended = () => {
+const Recomended = ({ id }) => {
 
     const mapContainer = useRef();
     const [lng, setLng] = useState(2.6500);
@@ -126,7 +126,7 @@ const Recomended = () => {
 
     return (
         <div className="recomended-main">
-            <HotelList Horizontal="Horizontal"></HotelList>
+            <HotelList Horizontal="Horizontal" id={id}></HotelList>
             <div className="map-container-main">
                 <div className="sidebar">
                     Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}

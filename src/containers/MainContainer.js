@@ -7,12 +7,13 @@ import Recomended from "../pages/Recomended";
 class Main extends Component {
 
   render() {
-    console.log("object");
     return (
       <div>
         <Switch key="app-router-switch">
           <Route path="/Recomended" exact><Recomended></Recomended></Route>
-          <Route path="*" exact><Home></Home></Route>
+          <Route path="/Recomended/:id" exact component={(props) => <Recomended id={props.match.params.id}></Recomended>} />
+          <Route path="*/:id" exact component={(props) => <Home id={props.match.params.id}></Home>} key="app-router-Home" />
+          <Route path="*" exact component={(props) => <Home></Home>} key="app-router-Home" />
         </Switch>
       </div>
     );

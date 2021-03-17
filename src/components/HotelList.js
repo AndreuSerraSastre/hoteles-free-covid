@@ -4,7 +4,7 @@ import 'react-perfect-scrollbar/dist/css/styles.css';
 import HotelListElement from './HotelListElement';
 import { Select } from 'antd';
 
-const HotelList = ({ Horizontal }) => {
+const HotelList = ({ Horizontal, id }) => {
 
   const { Option } = Select;
 
@@ -21,15 +21,7 @@ const HotelList = ({ Horizontal }) => {
         <Option value="coments">Más comentados</Option>
       </Select>
       <div className={`PerfectScrollbar${Horizontal}`}>
-        <HotelListElement Horizontal={Horizontal}></HotelListElement>
-        <HotelListElement Horizontal={Horizontal}></HotelListElement>
-        <HotelListElement Horizontal={Horizontal}></HotelListElement>
-        <HotelListElement Horizontal={Horizontal}></HotelListElement>
-        <HotelListElement Horizontal={Horizontal}></HotelListElement>
-        <HotelListElement Horizontal={Horizontal}></HotelListElement>
-        <HotelListElement Horizontal={Horizontal}></HotelListElement>
-        <HotelListElement Horizontal={Horizontal}></HotelListElement>
-        <HotelListElement Horizontal={Horizontal}></HotelListElement>
+        <HotelListElement Horizontal={Horizontal} id={id}></HotelListElement>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { Button } from 'antd';
+import { Button, Dropdown, Menu } from 'antd';
 import React, { useState } from 'react';
 import ReactStars from "react-rating-stars-component";
 import useWindowDimensions from '../hook/useWindowDimensions';
@@ -13,6 +13,14 @@ const HotelDetail = ({ id }) => {
     const goMap = () => {
         history.push('./Recomended/' + id);
     }
+
+    const menu = (
+        <Menu>
+            <Menu.Item key="1">Ir al sitio</Menu.Item>
+            <Menu.Item key="2" onClick={() => goMap()}>Ver tiempo</Menu.Item>
+            <Menu.Item key="3">Ver video</Menu.Item>
+        </Menu>
+    );
 
     return (
         <div className="hoteldetail-main">
@@ -35,9 +43,16 @@ const HotelDetail = ({ id }) => {
                                     <li className="hoteldetail-list-element">Test diario de antigenos</li>
                                 </ul>
                                 <div className="hoteldetail-buttons">
-                                    <Button className="hoteldetail-button">Ir al sitio</Button>
-                                    <Button className="hoteldetail-button" onClick={() => setVisible(true)}>Ver comentarios</Button>
                                     <Button className="hoteldetail-button" onClick={() => goMap()}>Mapa</Button>
+                                    <Button className="hoteldetail-button" onClick={() => setVisible(true)}>Ver comentarios</Button>
+                                    {width >= 1900 ?
+                                        <Dropdown.Button className="hoteldetail-button" overlay={menu}></Dropdown.Button> :
+                                        <>
+                                            <Button className="hoteldetail-button">Ir al sitio</Button>
+                                            <Button className="hoteldetail-button" onClick={() => goMap()}>Ver tiempo</Button>
+                                            <Button className="hoteldetail-button">Ver video</Button>
+                                        </>
+                                    }
                                 </div>
                             </div>
                         </div>

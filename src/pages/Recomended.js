@@ -5,6 +5,7 @@ import mapboxgl from 'mapbox-gl/dist/mapbox-gl-csp';
 import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker';
 import './../css/recomended.scss'
 import ReactDOMServer from "react-dom/server";
+import ReactWeather, { useOpenWeather } from 'react-open-weather';
 
 mapboxgl.workerClass = MapboxWorker;
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5kcmV1c2VycmEiLCJhIjoiY2ttNTZqazA1MGJrZzJxa256ZG9oeHVkMCJ9.kNz4v3PWG42gsH0atnjqog';
@@ -124,6 +125,14 @@ const Recomended = ({ id }) => {
         return () => map.remove();
     }, []);
 
+    const { data, isLoading, errorMessage } = useOpenWeather({
+        key: '45cdf11aab3ea5515644ae6f583108e3',
+        lat: lat,
+        lon: lng,
+        lang: 'es',
+        unit: 'metric', // values are (metric, standard, imperial)
+    });
+
     return (
         <div className="recomended-main">
             <HotelList Horizontal="Horizontal" id={id}></HotelList>
@@ -133,6 +142,17 @@ const Recomended = ({ id }) => {
                 </div>
                 <div className="map-container" ref={mapContainer} />
             </div>
+            <br></br>
+            <br></br>
+            <ReactWeather
+                isLoading={isLoading}
+                errorMessage={errorMessage}
+                data={data}
+                lang="es"
+                locationLabel="Mallorca"
+                unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
+                showForecast
+            />
             <br></br>
             <br></br>
         </div>

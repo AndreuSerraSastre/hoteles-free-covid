@@ -17,7 +17,8 @@
   padding: 15px;
 }
 
-.hoteldetail-main-columns {
+.hoteldetail-main-columns {  
+  position: relative;
   display: flex;
   flex-direction: row;
 }
@@ -30,6 +31,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-right: 25px;
 }
 
 .hoteldetail-buttons {
@@ -45,7 +47,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-left: 25px;
 }
 
 .hoteldetail-title {

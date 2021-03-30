@@ -62,6 +62,7 @@ const Recomended = ({ id }) => {
     }
 
     useEffect(() => {
+        window.scrollTo(0, 0)
         const map = new mapboxgl.Map({
             container: mapContainer.current,
             style: 'mapbox://styles/mapbox/streets-v11',

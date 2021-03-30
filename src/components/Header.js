@@ -2,7 +2,6 @@ import React from 'react';
 import Search from 'antd/lib/input/Search';
 import history from './../history'
 import { Dropdown, Menu } from 'antd';
-import { DownOutlined } from '@ant-design/icons';
 import './../css/header.scss'
 import Modal from 'antd/lib/modal/Modal';
 import { useState } from 'react';

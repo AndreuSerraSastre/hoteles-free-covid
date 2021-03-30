@@ -3,7 +3,6 @@ import './../css/hotelList.scss'
 import ReactStars from "react-rating-stars-component";
 import { Divider } from 'antd';
 import history from './../history';
-import { useLocation } from 'react-router-dom'
 
 const HotelListElement = ({ Horizontal, id }) => {
 

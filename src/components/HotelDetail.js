@@ -5,10 +5,14 @@ import useWindowDimensions from '../hook/useWindowDimensions';
 import './../css/hotelDetail.scss'
 import Comentarios from './Comentarios';
 import history from './../history';
+import "./../css/video-react.css"
+import { Player } from 'video-react';
+import { CloseOutlined } from '@ant-design/icons';
 
 const HotelDetail = ({ id }) => {
     const { height, width } = useWindowDimensions();
     const [visible, setVisible] = useState(false);
+    const [video, setvideo] = useState(false);
 
     const goMap = () => {
         history.push('./Recomended/' + id);
@@ -18,7 +22,7 @@ const HotelDetail = ({ id }) => {
         <Menu>
             <Menu.Item key="1">Ir al sitio</Menu.Item>
             <Menu.Item key="2" onClick={() => goMap()}>Ver tiempo</Menu.Item>
-            <Menu.Item key="3">Ver video</Menu.Item>
+            <Menu.Item key="3" onClick={() => setvideo(true)}>Ver video</Menu.Item>
         </Menu>
     );
 
@@ -50,26 +54,37 @@ const HotelDetail = ({ id }) => {
                                         <>
                                             <Button className="hoteldetail-button">Ir al sitio</Button>
                                             <Button className="hoteldetail-button" onClick={() => goMap()}>Ver tiempo</Button>
-                                            <Button className="hoteldetail-button">Ver video</Button>
+                                            <Button className="hoteldetail-button" onClick={() => setvideo(true)}>Ver video</Button>
                                         </>
                                     }
                                 </div>
                             </div>
                         </div>
-                        <div className="hoteldetail-image" style={{
-                            backgroundImage: `url(${process.env.PUBLIC_URL + '/images/best-rooftop-views-palma-nakar-hotel-mallorca.jpg'})`
-                        }}>
-                            <div className="star-main">
-                                <ReactStars
-                                    classNames="hoteldetail-stars"
-                                    count={5}
-                                    value={3}
-                                    edit={false}
-                                    size={width < 1900 ? 40 : 60}
-                                    activeColor="#fcc42b"
-                                />
-                            </div>
-                        </div>
+                        {!video ?
+                            <div className="hoteldetail-image" style={{
+                                backgroundImage: `url(${process.env.PUBLIC_URL + '/images/best-rooftop-views-palma-nakar-hotel-mallorca.jpg'})`
+                            }}>
+                                <div className="star-main">
+                                    <ReactStars
+                                        classNames="hoteldetail-stars"
+                                        count={5}
+                                        value={3}
+                                        edit={false}
+                                        size={width < 1900 ? 40 : 60}
+                                        activeColor="#fcc42b"
+                                    />
+                                </div>
+                            </div> :
+                            <Player
+                                playsInline
+                                poster="/assets/poster.png"
+                                src={process.env.PUBLIC_URL + '/videos/yt1s.com - Blau Punta Reina Resort Hotel en Cala Mendia_360p.mp4'}
+                            />
+                        }
+                        {video ?
+                            <CloseOutlined className="Close-button-player" onClick={() => setvideo(false)} /> :
+                            <></>
+                        }
                         <Comentarios visible={visible} setVisible={setVisible}></Comentarios>
                     </div>
                 </div> :

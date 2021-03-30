@@ -1,5 +1,4 @@
 import React from 'react';
-import { useEffect, useState } from 'react/cjs/react.production.min';
 import Carrousel from '../components/Carrousel';
 import HotelDetail from '../components/HotelDetail';
 import HotelList from '../components/HotelList';
@@ -8,8 +7,6 @@ import './../css/home.scss'
 
 const Home = ({ id }) => {
     const { height, width } = useWindowDimensions();
-
-    console.log(id);
 
     return (
         <div className="Home-main">

@@ -1,9 +1,11 @@
 {
-    "id": "1",
-    "nombre": "Fabio",
-    "apellidos": "Millan Huertas",
-    "telefono": "684751369",
-    "username": "fabio",
-    "correo": "fabiomillanhuertas@gmail.com",
-    "contraseña": "1234"
+    "usuarios": {
+        "id": "1",
+        "nombre": "Fabio",
+        "apellidos": "Millan Huertas",
+        "telefono": "684751369",
+        "username": "fabio",
+        "correo": "fabiomillanhuertas@gmail.com",
+        "contraseña": "1234"
+    }
 }

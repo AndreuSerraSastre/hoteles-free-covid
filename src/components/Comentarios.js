@@ -24,7 +24,7 @@ const Comentarios = ({ visible, setVisible }) => {
     }
 
     const añadir = () => {
-        if (key == 1) {
+        if (key === 1) {
             setañadirComentario(true);
         } else {
             setañadirPuntuacion(true);

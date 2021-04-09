@@ -10,7 +10,7 @@ const Loading = ({ loading }) => {
             className="modal-loading-main"
             centered
             visible={loading}
-            okButtonProps
+            footer={null}
         >
             <WaveLoading className="icono-loading" size={'large'} />
         </Modal>

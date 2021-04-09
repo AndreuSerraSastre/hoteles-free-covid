@@ -1,5 +1,5 @@
 import { handleActions } from 'redux-actions';
-import { AUTHORIZATION } from '../constants';
+import { AUTHORIZATION, HOTELES } from '../constants';
 import history from '../history';
 
 export const authorization = handleActions({
@@ -11,3 +11,10 @@ export const authorization = handleActions({
         return { auth, usuario }
     }
 }, { auth: false, usuario: null });
+
+export const hoteles = handleActions({
+    [HOTELES]: (state, action) => {
+        const { hoteles } = action.payload;
+        return hoteles
+    }
+}, []);

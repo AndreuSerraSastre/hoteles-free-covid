@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
-import { authorization } from "./Reducers";
+import { authorization, hoteles } from "./Reducers";
 
 export default combineReducers({
-    authorization
+    authorization,
+    hoteles
 });

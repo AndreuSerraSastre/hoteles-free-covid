@@ -5,12 +5,14 @@ import { hotelesGet } from './actions/hotelAction';
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Loading from './components/Loading'
+import { useAlert } from 'react-alert';
 
 function App() {
 
   const hoteles = useSelector(state => state.hoteles);
   const [loading, setLoading] = useState(false);
   const dispatch = useDispatch();
+  const alert = useAlert()
 
   const Cargarhoteles = async () => {
     setLoading(true);

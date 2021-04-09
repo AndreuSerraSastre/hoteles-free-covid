@@ -5,7 +5,7 @@ import mapboxgl from 'mapbox-gl/dist/mapbox-gl-csp';
 import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker';
 import './../css/recomended.scss'
 import ReactDOMServer from "react-dom/server";
-import ReactWeather, { useOpenWeather } from 'react-open-weather';
+import ReactWeatherComponent from '../components/ReactWeatherComponent';
 
 mapboxgl.workerClass = MapboxWorker;
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5kcmV1c2VycmEiLCJhIjoiY2ttNTZqazA1MGJrZzJxa256ZG9oeHVkMCJ9.kNz4v3PWG42gsH0atnjqog';
@@ -70,12 +70,6 @@ const Recomended = ({ id }) => {
             zoom: zoom,
         });
 
-        map.on('move', () => {
-            setLng(map.getCenter().lng.toFixed(4));
-            setLat(map.getCenter().lat.toFixed(4));
-            setZoom(map.getZoom().toFixed(2));
-        });
-
         map.on('style.load', function (e) {
             map.addSource('markers', {
                 "type": "geojson",
@@ -126,14 +120,6 @@ const Recomended = ({ id }) => {
         return () => map.remove();
     }, []);
 
-    const { data, isLoading, errorMessage } = useOpenWeather({
-        key: '45cdf11aab3ea5515644ae6f583108e3',
-        lat: lat,
-        lon: lng,
-        lang: 'es',
-        unit: 'metric', // values are (metric, standard, imperial)
-    });
-
     return (
         <div className="recomended-main">
             <HotelList Horizontal="Horizontal" id={id}></HotelList>
@@ -145,15 +131,7 @@ const Recomended = ({ id }) => {
             </div>
             <br></br>
             <br></br>
-            <ReactWeather
-                isLoading={isLoading}
-                errorMessage={errorMessage}
-                data={data}
-                lang="es"
-                locationLabel="Mallorca"
-                unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
-                showForecast
-            />
+            <ReactWeatherComponent></ReactWeatherComponent>
             <br></br>
             <br></br>
         </div>

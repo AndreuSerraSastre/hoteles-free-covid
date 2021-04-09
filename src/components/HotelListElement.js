@@ -8,7 +8,7 @@ const HotelListElement = ({ Horizontal, id }) => {
 
     const hotelSelected = () => {
         if(history.location.pathname.split('/')[1] === "Recomended"){
-        history.push(`${history.location.pathname.split('/')[1]}/dasdasd65ac16`);
+        history.push("/Recomended/dasdasd65ac16");
         }else{
             history.push(`./dasdasd65ac16`);
         }

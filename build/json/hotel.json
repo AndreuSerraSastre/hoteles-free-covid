@@ -1,0 +1,46 @@
+{
+    "nom": "Blau Punta Reina Family Resort",
+    "descripcio": "El Amic Horizonte es un hotel de gestión familiar con vistas a la bahía de Palma, situado cerca del puerto de Palma. Súper bien ubicado, excelente atención.",
+    "tipus": "Hotel",
+    "identificador": "1",
+    "preu": {
+        "import": "3",
+        "coment-preu": ""
+    },
+    "contacte": {
+        "telf": "971435024",
+        "email": "puntareina@gmail.com",
+        "xarxes": {
+            "web": "https://www.blauhotels.com/es/hotel-blau-punta-reina-resort-en-mallorca/",
+            "facebook": "https://www.facebook.com/blaupuntareinaresort/",
+            "twitter": "https://twitter.com/blauhotels?lang=es",
+            "instagram": "https://www.instagram.com/explore/locations/210845932914499/spain/manacor/blau-punta-reina-resort/"
+        }
+    },
+    "puntuacio": 3,
+    "imatges": [
+        "https://hoteles-free-covid.herokuapp.com/images/best-rooftop-views-palma-nakar-hotel-mallorca.jpg"
+    ],
+    "videos": [
+        {
+            "tipus": "intern",
+            "url": "https://hoteles-free-covid.herokuapp.com/videos/yt1s.com - Blau Punta Reina Resort Hotel en Cala Mendia_360p.mp4"
+        }
+    ],
+    "geoposicionament1": {
+        "address": "Plaça de s'Algar, Cala Anguila-Cala Mendia",
+        "lat": 39.5333257,
+        "long": 3.3347806,
+        "city": "Manacor",
+        "Country": "España",
+        "zip": "07680"
+    },
+    "dadesPropies": {
+        "Medidas": [
+            "Gel hidroalcohólico",
+            "Comida servida a mesa",
+            "Mascarillas gratis",
+            "Test diario de antígenos"
+        ]
+    }
+}

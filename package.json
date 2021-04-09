@@ -35,7 +35,7 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "npm run mock",
+    "start": "npm run all",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

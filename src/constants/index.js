@@ -1,4 +1,4 @@
 export const AUTHORIZATION = 'AUTHORIZATION';
-export const URL = 'http://localhost:4000/';
-export const HOTELESGET = 'hoteles';
+export const URL = 'http://localhost:3000/json/';
+export const HOTELESGET = 'hotel.json';
 export const HOTELES = 'hoteles';

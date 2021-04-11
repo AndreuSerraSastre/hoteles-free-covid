@@ -26,7 +26,7 @@ function App() {
   }
 
   useEffect(() => {
-    if (!hoteles || hoteles.length == 0) {
+    if (!hoteles || hoteles.length === 0) {
       Cargarhoteles();
     }
   }, [dispatch])

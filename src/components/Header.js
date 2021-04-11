@@ -8,15 +8,19 @@ import { useState } from 'react';
 import LoginDemo from './Login';
 import Register from './Register';
 import useWindowDimensions from './../hook/useWindowDimensions'
+import { FILTRO } from '../constants';
+import { useDispatch, useSelector } from 'react-redux';
 
 const Header = () => {
 
     const [ModalVisible, setModalVisible] = useState(false);
     const [Registrarse, setRegistrarse] = useState(false);
     const { height, width } = useWindowDimensions();
+    let filtro = useSelector(state => state.filtro);
+    const dispatch = useDispatch();
 
     const onSearch = (text) => {
-        console.log(text);
+        dispatch({ type: FILTRO, payload: { filtro: text } });
     }
 
     const goHome = () => {
@@ -45,7 +49,7 @@ const Header = () => {
                 <></> :
                 <img alt="home" className="header-image" onClick={goHome} src={process.env.PUBLIC_URL + '/images/signo-de-hotel.png'}></img>
             }
-            <Search placeholder="Buscar..." allowClear onSearch={onSearch} style={{ width: 400 }} />
+            <Search placeholder="Buscar..." allowClear onSearch={onSearch} defaultValue={filtro} style={{ width: 400 }} />
             <div className="header-buttons">
                 <Dropdown className="header-menu" overlay={menu} placement="bottomCenter" arrow>
                     <h3 onClick={e => e.preventDefault()}>

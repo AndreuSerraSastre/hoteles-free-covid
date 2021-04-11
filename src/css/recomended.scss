@@ -49,8 +49,10 @@
 }
 
 .mapboxgl-popup-content{
-  width: 300px;
-  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 300px;
 }
 
 .imagen-popup{
@@ -62,10 +64,18 @@
 .popup-main{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .titulo-popup{
   font-weight: 600;
+  font-size: 12px !important;
+  margin-bottom: 0em;
+}
+
+.info-popup{
+  font-size: 11px;
+  margin-bottom: 0em;
 }
 
 

@@ -6,6 +6,7 @@ import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker';
 import './../css/recomended.scss'
 import ReactDOMServer from "react-dom/server";
 import ReactWeatherComponent from '../components/ReactWeatherComponent';
+import { useSelector } from 'react-redux';
 
 mapboxgl.workerClass = MapboxWorker;
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5kcmV1c2VycmEiLCJhIjoiY2ttNTZqazA1MGJrZzJxa256ZG9oeHVkMCJ9.kNz4v3PWG42gsH0atnjqog';
@@ -13,8 +14,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYW5kcmV1c2VycmEiLCJhIjoiY2ttNTZqazA1MGJrZzJxa
 const Recomended = ({ id }) => {
 
     const mapContainer = useRef();
-    const [lng, setLng] = useState(2.6500);
-    const [lat, setLat] = useState(39.5695);
+    const hotel = useSelector(state => state.hoteles.find(hotel => hotel.identificador === id));
+
     const [zoom, setZoom] = useState(12);
 
     const EnRadianes = (number) => {
@@ -23,11 +24,11 @@ const Recomended = ({ id }) => {
 
     const CalcularDistancia = (lt, lg) => {
         const R = 6378; // Radio de la tierra
-        const difLatitud = EnRadianes(lt - lat);
-        const difLongitud = EnRadianes(lg - lng);
+        const difLatitud = EnRadianes(lt - hotel.geoposicionament1.lat);
+        const difLongitud = EnRadianes(lg - hotel.geoposicionament1.long);
 
         var a = Math.pow(Math.sin(difLatitud / 2), 2) +
-            Math.cos(EnRadianes(lat)) *
+            Math.cos(EnRadianes(hotel.geoposicionament1.lat)) *
             Math.cos(EnRadianes(lt)) *
             Math.pow(Math.sin(difLongitud / 2), 2);
 
@@ -36,25 +37,27 @@ const Recomended = ({ id }) => {
         return (R * c)?.toFixed(2);
     }
 
-    const CreatePopUp = (hotel, lg, lt) => {
+    const CreatePopUp = (hotelbool, lg, lt) => {
         return (
             ReactDOMServer.renderToStaticMarkup(
                 <div className="popup-main">
                     <img className='imagen-popup' alt="imagen hotel" src={process.env.PUBLIC_URL + '/images/best-rooftop-views-palma-nakar-hotel-mallorca.jpg'} ></img >
                     <div>
                         <h3 className="titulo-popup">Blau Punta Reina Family Resort</h3>
-                        {!hotel ?
+                        {!hotelbool ?
                             <div>
-                                <h4>Distancia: {CalcularDistancia(lt, lg)} km</h4>
-                                <h4>Lat: {lt?.toFixed(2)} Lon: {lg?.toFixed(2)}</h4>
+                                <h4 className="info-popup">Distancia: {CalcularDistancia(lt, lg)} km</h4>
+                                <h4 className="info-popup">Lat: {lt?.toFixed(2)} Lon: {lg?.toFixed(2)}</h4>
+                                <h5 className="info-popup">{hotel.geoposicionament1.address}</h5>
+                                <h5 className="info-popup">Telf: {hotel.contacte.telf}</h5>
                             </div>
                             :
                             <div>
-                                <h4>Lat: {lat?.toFixed(2)}</h4>
-                                <h4>Lon: {lng?.toFixed(2)}</h4>
+                                <h4 className="info-popup">Lat: {hotel.geoposicionament1.lat?.toFixed(2)} Lon: {hotel.geoposicionament1.long?.toFixed(2)}</h4>
+                                <h5 className="info-popup">{hotel.geoposicionament1.address}</h5>
+                                <h5 className="info-popup">Telf: {hotel.contacte.telf}</h5>
                             </div>
                         }
-
                     </div>
                 </div>
             )
@@ -63,75 +66,83 @@ const Recomended = ({ id }) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-        const map = new mapboxgl.Map({
-            container: mapContainer.current,
-            style: 'mapbox://styles/mapbox/streets-v11',
-            center: [lng, lat],
-            zoom: zoom,
-        });
-
-        map.on('style.load', function (e) {
-            map.addSource('markers', {
-                "type": "geojson",
-                "data": {
-                    "type": "FeatureCollection",
-                    "features": [{
-                        "type": "Feature",
-                        "geometry": {
-                            "type": "Point",
-                            "coordinates": [lng, lat]
-                        },
-                        "properties": {
-                            "modelId": 1,
-                        },
-                    }]
-                }
+        if (hotel) {
+            const map = new mapboxgl.Map({
+                container: mapContainer.current,
+                style: 'mapbox://styles/mapbox/streets-v11',
+                center: [hotel.geoposicionament1.long, hotel.geoposicionament1.lat],
+                zoom: zoom,
             });
-            map.addLayer({
-                "id": "circles1",
-                "source": "markers",
-                "type": "circle",
-                "paint": {
-                    "circle-radius": 50,
-                    "circle-color": "#fdd700",
-                    "circle-opacity": 0.3,
-                    "circle-stroke-width": 1,
-                },
-                "filter": ["==", "modelId", 1],
+
+            map.on('style.load', function (e) {
+                map.addSource('markers', {
+                    "type": "geojson",
+                    "data": {
+                        "type": "FeatureCollection",
+                        "features": [{
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [hotel.geoposicionament1.long, hotel.geoposicionament1.lat]
+                            },
+                            "properties": {
+                                "modelId": 1,
+                            },
+                        }]
+                    }
+                });
+                map.addLayer({
+                    "id": "circles1",
+                    "source": "markers",
+                    "type": "circle",
+                    "paint": {
+                        "circle-radius": 50,
+                        "circle-color": "#fdd700",
+                        "circle-opacity": 0.3,
+                        "circle-stroke-width": 1,
+                    },
+                    "filter": ["==", "modelId", 1],
+                });
             });
-        });
 
-        new mapboxgl.Marker({
-            color: "#FF0000",
-            draggable: false,
-        })
-            .setLngLat([lng, lat])
-            .setPopup(new mapboxgl.Popup().setHTML(CreatePopUp(true)))
-            .addTo(map);
+            new mapboxgl.Marker({
+                color: "#FF0000",
+                draggable: false,
+            })
+                .setLngLat([hotel.geoposicionament1.long, hotel.geoposicionament1.lat])
+                .setPopup(new mapboxgl.Popup().setHTML(CreatePopUp(true)))
+                .addTo(map);
 
-        new mapboxgl.Marker({
-            color: "#FF0000",
-            draggable: false,
-        })
-            .setLngLat([lng + 0.05, lat])
-            .setPopup(new mapboxgl.Popup().setHTML(CreatePopUp(false, lng + 0.05, lat)))
-            .addTo(map);
+            new mapboxgl.Marker({
+                color: "#FF0000",
+                draggable: false,
+            })
+                .setLngLat([hotel.geoposicionament1.long - 0.005, hotel.geoposicionament1.lat])
+                .setPopup(new mapboxgl.Popup().setHTML(CreatePopUp(false, hotel.geoposicionament1.long - 0.005, hotel.geoposicionament1.lat)))
+                .addTo(map);
 
-        return () => map.remove();
-    }, []);
+            return () => map.remove();
+        }
+    }, [hotel]);
 
     return (
         <div className="recomended-main">
             <HotelList Horizontal="Horizontal" id={id}></HotelList>
-            <div className="map-container-main">
-                <div className="sidebar">
-                    Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
-                </div>
-                <div className="map-container" ref={mapContainer} />
-            </div>
+            {hotel ?
+                <div className="map-container-main">
+
+                    <div className="sidebar">
+                        Longitud: {hotel.geoposicionament1.long} | Latitud: {hotel.geoposicionament1.lat} | Zoom: {zoom}
+                    </div>
+                    <div className="map-container" ref={mapContainer} />
+                    <div></div>
+
+                </div> :
+                <div></div>
+            }
             <br></br>
             <br></br>
-            <ReactWeatherComponent></ReactWeatherComponent>
+            <ReactWeatherComponent id={id}></ReactWeatherComponent>
             <br></br>
             <br></br>
         </div>

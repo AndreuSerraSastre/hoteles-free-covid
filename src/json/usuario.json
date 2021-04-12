@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "nombre": "Fabio",
+        "apellidos": "Millan Huertas",
+        "telefono": "684751369",
+        "username": "fabio",
+        "correo": "fabiomillanhuertas@gmail.com",
+        "contraseña": "1234"
+    },
+    {
+        "id": "3",
+        "nombre": "Fabio",
+        "apellidos": "Millan Huertas",
+        "telefono": "684751369",
+        "username": "fabio",
+        "correo": "fabiomillanhuertas@gmail.com",
+        "contraseña": "1234"
+    },
+    {
+        "id": "2",
+        "nombre": "Fabio",
+        "apellidos": "Millan Huertas",
+        "telefono": "684751369",
+        "username": "fabio",
+        "correo": "fabiomillanhuertas@gmail.com",
+        "contraseña": "1234"
+    }
+]

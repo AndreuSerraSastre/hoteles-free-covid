@@ -91,7 +91,7 @@ const HotelDetail = ({ id }) => {
                             <CloseOutlined className="Close-button-player" onClick={() => setvideo(false)} /> :
                             <></>
                         }
-                        <Comentarios visible={visible} setVisible={setVisible}></Comentarios>
+                        <Comentarios visible={visible} setVisible={setVisible} id={id}></Comentarios>
                     </div>
                 </div> :
                 <div className="Hotel-No-Seleccionado">

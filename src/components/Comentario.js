@@ -2,21 +2,27 @@ import React from 'react';
 import Avatar from 'antd/lib/avatar/avatar';
 import './../css/comentarios.scss'
 
-const Comentario = () => {
+const Comentario = ({ comentario }) => {
+
+    const obtenerFecha = () => {
+        var fecha = new Date(comentario.fecha);
+        var options = { year: 'numeric', month: 'long', day: 'numeric' };
+        return fecha.toLocaleDateString("es-ES", options)
+    }
 
     return (
 
         <div className="comentario-main">
             <div className="comentario-usuario">
                 <Avatar className="comentario-avatar" style={{ verticalAlign: 'middle' }} size="large">
-                    {'J'}
+                    {comentario.nombre.charAt(0)}
                 </Avatar>
                 <div className="comentario-usuario-info">
-                    <h2 className="comentario-usuario-info-nombre">Juan pablo</h2>
-                    <h5>Comentó en: 31 de julio de 2019</h5>
+                    <h2 className="comentario-usuario-info-nombre">{comentario.nombre}</h2>
+                    <h5>Comentó el: {obtenerFecha()}</h5>
                 </div>
             </div>
-            <h4>La primera vez que fuí nos lo pasamos muy bien. Los niños se divierten mucho.</h4>
+            <h4>{comentario.comentario}</h4>
             <hr></hr>
         </div>
 

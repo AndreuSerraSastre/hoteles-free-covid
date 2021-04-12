@@ -8,7 +8,7 @@ import { useState } from 'react';
 import LoginDemo from './Login';
 import Register from './Register';
 import useWindowDimensions from './../hook/useWindowDimensions'
-import { FILTRO } from '../constants';
+import { AUTHORIZATION, FILTRO } from '../constants';
 import { useDispatch, useSelector } from 'react-redux';
 
 const Header = () => {
@@ -16,8 +16,14 @@ const Header = () => {
     const [ModalVisible, setModalVisible] = useState(false);
     const [Registrarse, setRegistrarse] = useState(false);
     const { height, width } = useWindowDimensions();
+    let auth = useSelector(state => state.authorization.auth);
+    let usuario = useSelector(state => state.authorization.usuario);
     let filtro = useSelector(state => state.filtro);
     const dispatch = useDispatch();
+
+    const logOut = () => {
+        dispatch({ type: AUTHORIZATION, payload: { token: '', auth: false, usuario: null } });
+    };
 
     const onSearch = (text) => {
         dispatch({ type: FILTRO, payload: { filtro: text } });
@@ -42,6 +48,14 @@ const Header = () => {
         </Menu>
     );
 
+    const cerrarSesion = (
+        <Menu>
+            <Menu.Item>
+                <h3 className="header-menu-item" target="_blank" rel="noopener noreferrer" onClick={logOut}>Cerrar Sesión</h3>
+            </Menu.Item>
+        </Menu>
+    );
+
 
     return (
         <header className="header-main">
@@ -53,10 +67,17 @@ const Header = () => {
             <div className="header-buttons">
                 <Dropdown className="header-menu" overlay={menu} placement="bottomCenter" arrow>
                     <h3 onClick={e => e.preventDefault()}>
-                        Menú 
+                        Menú
                     </h3>
                 </Dropdown>
-                <h3 className="header-login" onClick={() => setModalVisible(true)}>Login</h3>
+                {!auth ?
+                    <h3 className="header-login" onClick={() => setModalVisible(true)}>Login</h3> :
+                    <Dropdown className="header-menu" overlay={cerrarSesion} placement="bottomCenter" arrow>
+                        <h3 onClick={e => e.preventDefault()}>
+                            {usuario.nombre}
+                        </h3>
+                    </Dropdown>
+                }
             </div>
             <Modal
                 centered
@@ -67,8 +88,8 @@ const Header = () => {
                 okButtonProps={{ style: { display: 'none' } }}
             >
                 {!Registrarse ?
-                    <LoginDemo setRegistrarse={setRegistrarse}></LoginDemo> :
-                    <Register setRegistrarse={setRegistrarse}></Register>
+                    <LoginDemo setRegistrarse={setRegistrarse} setModalVisible={setModalVisible}></LoginDemo> :
+                    <Register setRegistrarse={setRegistrarse} setModalVisible={setModalVisible}></Register>
                 }
 
             </Modal>

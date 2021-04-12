@@ -1,5 +1,5 @@
 import { handleActions } from 'redux-actions';
-import { AUTHORIZATION, HOTELES, OPCION,FILTRO } from '../constants';
+import { AUTHORIZATION, HOTELES, OPCION,FILTRO, USUARIOS, COMENTARIOS, PUNTUACIONES } from '../constants';
 import history from '../history';
 
 export const authorization = handleActions({
@@ -16,6 +16,27 @@ export const hoteles = handleActions({
     [HOTELES]: (state, action) => {
         const { hoteles } = action.payload;
         return hoteles
+    }
+}, []);
+
+export const usuarios = handleActions({
+    [USUARIOS]: (state, action) => {
+        const { usuarios } = action.payload;
+        return usuarios
+    }
+}, []);
+
+export const comentarios = handleActions({
+    [COMENTARIOS]: (state, action) => {
+        const { comentarios } = action.payload;
+        return comentarios
+    }
+}, []);
+
+export const puntuaciones = handleActions({
+    [PUNTUACIONES]: (state, action) => {
+        const { puntuaciones } = action.payload;
+        return puntuaciones
     }
 }, []);
 

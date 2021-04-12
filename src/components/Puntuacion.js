@@ -3,24 +3,30 @@ import Avatar from 'antd/lib/avatar/avatar';
 import './../css/comentarios.scss'
 import ReactStars from "react-rating-stars-component";
 
-const Puntuacion = () => {
+const Puntuacion = ({ puntuacion }) => {
+
+    const obtenerFecha = () => {
+        var fecha = new Date(puntuacion.fecha);
+        var options = { year: 'numeric', month: 'long', day: 'numeric' };
+        return fecha.toLocaleDateString("es-ES", options)
+    }
 
     return (
 
         <div className="comentario-main">
             <div className="comentario-usuario">
                 <Avatar className="comentario-avatar" style={{ verticalAlign: 'middle' }} size="large">
-                    {'J'}
+                    {puntuacion.nombre.charAt(0)}
                 </Avatar>
                 <div className="comentario-usuario-info">
-                    <h2 className="comentario-usuario-info-nombre">Juan pablo</h2>
-                    <h5>Puntuó en: 31 de julio de 2019</h5>
+                    <h2 className="comentario-usuario-info-nombre">{puntuacion.nombre}</h2>
+                    <h5>Puntuó el: {obtenerFecha()}</h5>
                 </div>
             </div>
-            <h4>El apartamento es espacioso, cómodo y con mobiliario de diseño. Cerca de Monti, y las anfitrionas son amabilísimas. Espero volver pronto.</h4>
+            <h4>{puntuacion.comentario}</h4>
             <ReactStars
                 count={5}
-                value={3}
+                value={puntuacion.puntuacion}
                 edit={false}
                 size={35}
                 activeColor="#fcc42b"

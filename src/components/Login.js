@@ -1,12 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'antd/dist/antd.css';
 import './../css/login.css';
 import { Form, Input, Button, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
+import { autentificate, usuarioGet } from '../actions/usuarioAction';
+import { useDispatch, useSelector } from 'react-redux';
+import { useAlert } from 'react-alert';
+import Loading from './Loading';
 
-const Login = ({ setRegistrarse }) => {
-  const onFinish = values => {
-    console.log('Received values of form: ', values);
+const Login = ({ setRegistrarse, setModalVisible }) => {
+
+  const [loading, setLoading] = useState(false);
+  let usuarios = useSelector(state => state.usuarios);
+  const dispatch = useDispatch();
+  const alert = useAlert()
+
+  const onFinish = async values => {
+    setLoading(true);
+    if (!usuarios || usuarios.length === 0) {
+      usuarios = await dispatch(usuarioGet());
+    }
+    const response = await dispatch(autentificate(values.username, values.password, usuarios));
+    if (response.status === 400) {
+      alert.show(response.err)
+    } else if (response.status === 404 || response.status === 500) {
+      alert.show('ERROR DE CONEXIÓN CON EL SERVIDOR.')
+    } else {
+      setModalVisible(false);
+    }
+    setLoading(false);
   };
 
   return (
@@ -60,6 +82,7 @@ const Login = ({ setRegistrarse }) => {
           O <h4 className="login-form-register" onClick={() => setRegistrarse(true)}>registrate ahora!</h4>
         </div>
       </Form.Item>
+      <Loading loading={loading}></Loading>
     </Form>
   );
 };

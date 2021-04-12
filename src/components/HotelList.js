@@ -80,7 +80,6 @@ const HotelList = ({ Horizontal, id }) => {
         <Option value="asc-stars">Mejor puntuación</Option>
         <Option value="desc-stars">Peor puntuación</Option>
         <Option value="namea-z">Alfabéticamente</Option>
-        <Option value="coments">Más comentados</Option>
       </Select>
       <div className={`PerfectScrollbar${Horizontal}`}>
         {CargarHoteles(value)}

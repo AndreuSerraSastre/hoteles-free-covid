@@ -1,19 +1,32 @@
 import { Button, Tabs, Form, Input } from 'antd';
 import Modal from 'antd/lib/modal/Modal';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './../css/comentarios.scss'
 import Comentario from './Comentario';
 import Puntuacion from './Puntuacion';
 import ReactStars from "react-rating-stars-component";
+import { addComent, comentariosGet } from '../actions/comentarioAction';
+import { addPuntua, puntuacionesGet } from '../actions/puntuacionesAction';
+import { useDispatch, useSelector } from 'react-redux';
+import { useAlert } from 'react-alert';
+import Loading from './Loading';
 
-const Comentarios = ({ visible, setVisible }) => {
+const Comentarios = ({ visible, setVisible, id }) => {
 
     const titles = ['Comentarios', 'Puntuaciones'];
     const buttons = ['Añadir comentario', 'Añadir puntuación'];
     const [key, setKey] = useState(1);
-
+    const [value, setValue] = useState(3);
+    const dispatch = useDispatch();
+    let auth = useSelector(state => state.authorization.auth);
+    let usuario = useSelector(state => state.authorization.usuario);
     const [añadirComentario, setañadirComentario] = useState(false);
     const [añadirPuntuacion, setañadirPuntuacion] = useState(false);
+    const [loading, setLoading] = useState(false);
+
+    const alert = useAlert()
+    let comentarios = useSelector(state => state.comentarios);
+    let puntuaciones = useSelector(state => state.puntuaciones);
 
     const { TabPane } = Tabs;
 
@@ -24,19 +37,74 @@ const Comentarios = ({ visible, setVisible }) => {
     }
 
     const añadir = () => {
-        if (key === 1) {
-            setañadirComentario(true);
+        if (auth) {
+            if (Number(key) === 1) {
+                setañadirComentario(!añadirComentario);
+            } else {
+                setañadirPuntuacion(!añadirPuntuacion);
+            }
         } else {
-            setañadirPuntuacion(true);
+            alert.show('ES NECESARIO ESTAR REGISTRADO.')
         }
     }
 
-    const addComentario = (comentario) => {
-
+    const addComentario = async (comentarioForm) => {
+        setLoading(true);
+        const comentario = {
+            nombre: usuario.nombre,
+            fecha: new Date(),
+            comentario: comentarioForm.comentario
+        }
+        const response = await dispatch(addComent(comentarios, comentario, id));
+        if (response.status === 400) {
+            alert.show(response.err)
+        } else if (response.status === 404 || response.status === 500) {
+            alert.show('ERROR DE CONEXIÓN CON EL SERVIDOR.')
+        } else {
+            setañadirComentario(false);
+        }
+        setLoading(false);
     }
 
-    const addPuntuacion = (puntuacion) => {
+    const addPuntuacion = async (puntuacionForm) => {
+        console.log(puntuacionForm)
+        setLoading(true);
+        const puntuacion = {
+            nombre: usuario.nombre,
+            fecha: new Date(),
+            comentario: puntuacionForm.comentario,
+            puntuacion: value
+        }
+        const response = await dispatch(addPuntua(puntuaciones, puntuacion, id));
+        if (response.status === 400) {
+            alert.show(response.err)
+        } else if (response.status === 404 || response.status === 500) {
+            alert.show('ERROR DE CONEXIÓN CON EL SERVIDOR.')
+        } else {
+            setañadirPuntuacion(false);
+        }
+        setLoading(false);
+    }
 
+    const CargarComentarios = () => {
+        return comentarios.find(comentario => comentario.identificador === id)?.comentarios.map((comentario, key) => <Comentario comentario={comentario}></Comentario>)
+    }
+
+    const CargarPuntuaciones = () => {
+        return puntuaciones.find(puntuacion => puntuacion.identificador === id)?.puntuaciones.map((puntuacion, key) => <Puntuacion puntuacion={puntuacion}></Puntuacion>)
+    }
+
+    useEffect(async () => {
+        if (!comentarios || comentarios.length === 0) {
+            comentarios = await dispatch(comentariosGet());
+        }
+        if (!puntuaciones || puntuaciones.length === 0) {
+            puntuaciones = await dispatch(puntuacionesGet());
+        }
+    }, [])
+
+    const setValorEstrella = (valor) => {
+        setValue(valor)
     }
 
     return (
@@ -71,16 +139,13 @@ const Comentarios = ({ visible, setVisible }) => {
                                 >
                                     <Input placeholder="Añade tu comentario"></Input>
                                 </Form.Item>
-                                <Button type="primary" >Enviar</Button>
+                                <Button type="primary" htmlType="submit" >Enviar</Button>
                                 <hr></hr>
                             </Form> :
                             <></>
                         }
                         <div className="lista-comentarios">
-                            <Comentario></Comentario>
-                            <Comentario></Comentario>
-                            <Comentario></Comentario>
-                            <Comentario></Comentario>
+                            {CargarComentarios()}
                         </div>
                     </div>
                 </TabPane>
@@ -104,25 +169,24 @@ const Comentarios = ({ visible, setVisible }) => {
                                 <div className="starfocus">
                                     <ReactStars
                                         count={5}
-                                        value={3}
+                                        value={value}
                                         size={35}
                                         activeColor="#fcc42b"
+                                        onChange={setValorEstrella}
                                     />
                                 </div>
-                                <Button type="primary" >Enviar</Button>
+                                <Button type="primary" htmlType="submit" >Enviar</Button>
                                 <hr></hr>
                             </Form> :
                             <></>
                         }
                         <div className="lista-comentarios">
-                            <Puntuacion></Puntuacion>
-                            <Puntuacion></Puntuacion>
-                            <Puntuacion></Puntuacion>
-                            <Puntuacion></Puntuacion>
+                            {CargarPuntuaciones()}
                         </div>
                     </div>
                 </TabPane>
             </Tabs>
+            <Loading loading={loading}></Loading>
         </Modal>
     );
 }

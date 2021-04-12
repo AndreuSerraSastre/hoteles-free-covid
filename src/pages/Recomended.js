@@ -41,9 +41,15 @@ const Recomended = ({ id }) => {
         return (
             ReactDOMServer.renderToStaticMarkup(
                 <div className="popup-main">
-                    <img className='imagen-popup' alt="imagen hotel" src={process.env.PUBLIC_URL + '/images/best-rooftop-views-palma-nakar-hotel-mallorca.jpg'} ></img >
+                    {hotelbool ?
+                        <img className='imagen-popup' alt="imagen hotel" src={hotel.imatges[0]} ></img > :
+                        <img className='imagen-popup' alt="imagen hotel" src={"https://mk0abcmallorca71dgvy.kinstacdn.com/wp-content/uploads/2017/08/port-alcudia-20.jpg"} ></img >
+                    }
                     <div>
-                        <h3 className="titulo-popup">Blau Punta Reina Family Resort</h3>
+                        {hotelbool ?
+                            <h3 className="titulo-popup">{hotel.nom}</h3> :
+                            <h3 className="titulo-popup">Playa de Alcúdia</h3>
+                        }
                         {!hotelbool ?
                             <div>
                                 <h4 className="info-popup">Distancia: {CalcularDistancia(lt, lg)} km</h4>

@@ -18,5 +18,21 @@
                 "comentario": "Buenas playas alrededor y no muy abarrotadas, comida buena salvo la fruta."
             }
         ]
+    },
+    {
+        "identificador": "2",
+        "comentarios": []
+    },
+    {
+        "identificador": "3",
+        "comentarios": []
+    },
+    {
+        "identificador": "4",
+        "comentarios": []
+    },
+    {
+        "identificador": "5",
+        "comentarios": []
     }
 ]

@@ -24,17 +24,17 @@
         "comentarios": [
             {
                 "nombre": "Oriol Zapata",
-                "fecha": "2021-04-12:40:12.000Z",
+                "fecha": "2021-04-12T10:40:12.000Z",
                 "comentario": "Muy pero que muy bien"
             },
             {
                 "nombre": "Gabriel Pérez",
-                "fecha": "2020-04-12:40:12.000Z",
+                "fecha": "2020-04-12T10:40:12.000Z",
                 "comentario": "Recibimiento inmejorable"
             },
             {
                 "nombre": "Juan David Alonso",
-                "fecha": "2019-08-20:40:12.000Z",
+                "fecha": "2019-08-20T10:40:12.000Z",
                 "comentario": "Excelente"
             }
         ]
@@ -44,12 +44,12 @@
         "comentarios": [
             {
                 "nombre": "Maria Valle Duarte",
-                "fecha": "2021-01-01:40:12.000Z",
+                "fecha": "2021-01-01T10:40:12.000Z",
                 "comentario": "Agradable y tranquilo para poder relajarte en pareja ó familia"
             },
             {
                 "nombre": "Violeta Ferreiro",
-                "fecha": "2008-01-12:40:12.000Z",
+                "fecha": "2008-01-12T10:40:12.000Z",
                 "comentario": "Todo en perfecto estado, estaba en primera linea de playa! Y no se escuchaba a la gente de las otras habitaciones."
             }
         ]
@@ -59,8 +59,8 @@
         "comentarios": [
             {
                 "nombre": "Macarena Sampedro",
-                "fecha": "2021-02-22:40:12.000Z",
-                "comentario": ""
+                "fecha": "2021-02-12T10:40:12.000Z",
+                "comentario": "Está situado en una parte de mallorca muy tranquila, puedes descansar y relajarte."
             }
         ]
     },
@@ -69,32 +69,32 @@
         "comentarios": [
             {
                 "nombre": "Marco Salguero",
-                "fecha": "2020-08-08:40:12.000Z",
+                "fecha": "2020-08-08T10:40:12.000Z",
                 "comentario": "The value for money here was excellent - simple, clean apartment in a fantastic location."
             },
             {
                 "nombre": "Patricio Llamas",
-                "fecha": "2020-12-04:40:12.000Z",
+                "fecha": "2020-12-04T10:40:12.000Z",
                 "comentario": "Fabuloso"
             },
             {
                 "nombre": "Sebastiana Moron",
-                "fecha": "2019-01-24:40:12.000Z",
+                "fecha": "2019-01-24T10:40:12.000Z",
                 "comentario": "Todo en perfecto estado, estaba en primera linea de playa! Y no se escuchaba a la gente de las otras habitaciones."
             },
             {
                 "nombre": "Itziar Bustos",
-                "fecha": "2020-08-02:40:12.000Z",
+                "fecha": "2020-08-02T10:40:12.000Z",
                 "comentario": "Hotel tranquilo con bonitas vistas y excelente atención"
             },
             {
                 "nombre": "Eladio Leon",
-                "fecha": "2015-04-12:40:12.000Z",
+                "fecha": "2015-04-12T10:40:12.000Z",
                 "comentario": "Desconexión en un lugar excepcional!!"
             },
             {
                 "nombre": "Urbano Sampedro",
-                "fecha": "2012-10-01:40:12.000Z",
+                "fecha": "2012-10-01T10:40:12.000Z",
                 "comentario": "Fantástico"
             }
         ]

@@ -18,18 +18,76 @@
     },
     {
         "identificador": "2",
-        "puntuaciones": []
+        "puntuaciones": [
+            {
+                "nombre": "Matias Arribas",
+                "fecha": "2021-03-09T10:45:30.000Z",
+                "comentario": "Es un lugar mágico y es difícil explicar por qué. La situación, el trato familiar, las habitaciones, el entorno, las vistas, el ambiente...",
+                "puntuacion": "5"
+            },
+            {
+                "nombre": "Carla Tena",
+                "fecha": "2021-03-09T10:45:30.000Z",
+                "comentario": "Fantástico",
+                "puntuacion": "4"
+            },
+            {
+                "nombre": "Iman Pallares",
+                "fecha": "2021-03-09T10:45:30.000Z",
+                "comentario": "espectativas completas",
+                "puntuacion": "3"
+            }
+        ]
     },
     {
         "identificador": "3",
-        "puntuaciones": []
+        "puntuaciones": [
+            {
+                "nombre": "Natália Planas",
+                "fecha": "2021-03-09T10:45:30.000Z",
+                "comentario": "Vacaciones inolvidables",
+                "puntuacion": "5"
+            }
+        ]
     },
     {
         "identificador": "4",
-        "puntuaciones": []
+        "puntuaciones": [
+            {
+                "nombre": "Cristina Estrada",
+                "fecha": "2021-03-09T10:45:30.000Z",
+                "comentario": "Relax frente al mar",
+                "puntuacion": "4"
+            },
+            {
+                "nombre": "Martin Gordo",
+                "fecha": "2021-03-09T10:45:30.000Z",
+                "comentario": "Hotel situado en una cala espectacular",
+                "puntuacion": "5"
+            },
+            {
+                "nombre": "Aurelio Yuste",
+                "fecha": "2021-03-09T10:45:30.000Z",
+                "comentario": "Bien",
+                "puntuacion": "3"
+            }
+        ]
     },
     {
         "identificador": "5",
-        "puntuaciones": []
+        "puntuaciones": [
+            {
+                "nombre": "Hamza Mata",
+                "fecha": "2021-03-09T10:45:30.000Z",
+                "comentario": "una bonita experiencia",
+                "puntuacion": "4"
+            },
+            {
+                "nombre": "Tamara Carrera",
+                "fecha": "2021-03-09T10:45:30.000Z",
+                "comentario": "Regular pero con buenas vistas",
+                "puntuacion": "2"
+            }
+        ]
     }
 ]

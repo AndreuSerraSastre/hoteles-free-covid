@@ -10,6 +10,8 @@ const HotelList = ({ Horizontal, id }) => {
 
   const { Option } = Select;
   let hoteles = useSelector(state => state.hoteles);
+  let comentarios = useSelector(state => state.comentarios);
+  let puntuaciones = useSelector(state => state.puntuaciones);
   let opcion = useSelector(state => state.opcion);
   const [value, setValue] = useState(opcion);
   const [refrescar, setRefrescar] = useState(false);
@@ -60,6 +62,103 @@ const HotelList = ({ Horizontal, id }) => {
           }
         })
         break;
+      case "asc-comentados":
+        hotelesFilter = hotelesFilter.sort((a, b) => {
+          const comentariosA = comentarios?.find(x => x.identificador === a.identificador)
+          const comentariosB = comentarios?.find(x => x.identificador === b.identificador)
+          if (comentariosA.comentarios.length > comentariosB.comentarios.length) {
+            return -1;
+          } else if (comentariosA.comentarios.length < comentariosB.comentarios.length) {
+            return 1;
+          } else {
+            return 0;
+          }
+        })
+        break;
+      case "desc-comentados":
+        hotelesFilter = hotelesFilter.sort((a, b) => {
+          const comentariosA = comentarios?.find(x => x.identificador === a.identificador)
+          const comentariosB = comentarios?.find(x => x.identificador === b.identificador)
+          if (comentariosA.comentarios.length > comentariosB.comentarios.length) {
+            return 1;
+          } else if (comentariosA.comentarios.length < comentariosB.comentarios.length) {
+            return -1;
+          } else {
+            return 0;
+          }
+        })
+        break;
+      case "asc-puntuaciones":
+        hotelesFilter = hotelesFilter.sort((a, b) => {
+          const puntuacionesA = puntuaciones?.find(x => x.identificador === a.identificador)
+          const puntuacionesB = puntuaciones?.find(x => x.identificador === b.identificador)
+          if (puntuacionesA.puntuaciones.length > puntuacionesB.puntuaciones.length) {
+            return -1;
+          } else if (puntuacionesA.puntuaciones.length < puntuacionesB.puntuaciones.length) {
+            return 1;
+          } else {
+            return 0;
+          }
+        })
+        break;
+      case "desc-puntuaciones":
+        hotelesFilter = hotelesFilter.sort((a, b) => {
+          const puntuacionesA = puntuaciones?.find(x => x.identificador === a.identificador)
+          const puntuacionesB = puntuaciones?.find(x => x.identificador === b.identificador)
+          if (puntuacionesA.puntuaciones.length > puntuacionesB.puntuaciones.length) {
+            return 1;
+          } else if (puntuacionesA.puntuaciones.length < puntuacionesB.puntuaciones.length) {
+            return -1;
+          } else {
+            return 0;
+          }
+        })
+        break;
+      case "asc-disponibilidad":
+        hotelesFilter = hotelesFilter.sort((a, b) => {
+          if (a.dadesPropies.disponibilidad > b.dadesPropies.disponibilidad) {
+            return 1;
+          } else if (a.dadesPropies.disponibilidad < b.dadesPropies.disponibilidad) {
+            return -1;
+          } else {
+            return 0;
+          }
+        })
+        break;
+      case "desc-disponibilidad":
+        hotelesFilter = hotelesFilter.sort((a, b) => {
+          if (a.dadesPropies.disponibilidad > b.dadesPropies.disponibilidad) {
+            return -1;
+          } else if (a.dadesPropies.disponibilidad < b.dadesPropies.disponibilidad) {
+            return 1;
+          } else {
+            return 0;
+          }
+        })
+        break;
+      case "asc-medidas":
+        hotelesFilter = hotelesFilter.sort((a, b) => {
+          if (a.dadesPropies.Medidas.length > b.dadesPropies.Medidas.length) {
+            return -1;
+          } else if (a.dadesPropies.Medidas.length < b.dadesPropies.Medidas.length) {
+            return 1;
+          } else {
+            return 0;
+          }
+        })
+        break;
+      case "desc-medidas":
+        hotelesFilter = hotelesFilter.sort((a, b) => {
+          if (a.dadesPropies.Medidas.length > b.dadesPropies.Medidas.length) {
+            return 1;
+          } else if (a.dadesPropies.Medidas.length < b.dadesPropies.Medidas.length) {
+            return -1;
+          } else {
+            return 0;
+          }
+        })
+        break;
+
       default:
         break;
     }
@@ -80,6 +179,14 @@ const HotelList = ({ Horizontal, id }) => {
         <Option value="asc-stars">Mejor puntuación</Option>
         <Option value="desc-stars">Peor puntuación</Option>
         <Option value="namea-z">Alfabéticamente</Option>
+        <Option value="asc-comentados">Más comentados</Option>
+        <Option value="desc-comentados">Menos comentados</Option>
+        <Option value="asc-puntuaciones">Más puntuaciones</Option>
+        <Option value="desc-puntuaciones">Menos puntuaciones</Option>
+        <Option value="asc-disponibilidad">Mayor disponibilidad</Option>
+        <Option value="desc-disponibilidad">Menor disponibilidad</Option>
+        <Option value="asc-medidas">Más medidas</Option>
+        <Option value="desc-medidas">Menos medidas</Option>
       </Select>
       <div className={`PerfectScrollbar${Horizontal}`}>
         {CargarHoteles(value)}

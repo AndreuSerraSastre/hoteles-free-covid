@@ -9,6 +9,8 @@ import "./../css/video-react.css"
 import { Player } from 'video-react';
 import { CloseOutlined } from '@ant-design/icons';
 import { useSelector } from 'react-redux';
+import ProgressBar from 'react-customizable-progressbar'
+import ReactTooltip from 'react-tooltip'
 
 const HotelDetail = ({ id }) => {
     const { height, width } = useWindowDimensions();
@@ -79,6 +81,18 @@ const HotelDetail = ({ id }) => {
                                         size={width < 1900 ? 40 : 60}
                                         activeColor="#fcc42b"
                                     />
+                                    <p data-tip='Disponibilidad'>
+                                        <ProgressBar
+                                            progress={hotel.dadesPropies.disponibilidad}
+                                            radius={30}
+                                            strokeWidth={10}
+                                            trackStrokeWidth={10}
+                                        ><div className="indicator">
+                                                <div>{hotel.dadesPropies.disponibilidad}%</div>
+                                            </div>
+                                        </ProgressBar>
+                                        <ReactTooltip />
+                                    </p>
                                 </div>
                             </div> :
                             <Player

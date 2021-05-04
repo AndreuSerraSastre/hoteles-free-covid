@@ -42,7 +42,8 @@
                 "Comida servida a mesa",
                 "Mascarillas gratis",
                 "Test diario de antígenos"
-            ]
+            ],
+            "disponibilidad": 60
         }
     },
     {
@@ -87,7 +88,8 @@
                 "Gel hidroalcohólico",
                 "Comida servida a mesa",
                 "Piscinas interiores cerradas"
-            ]
+            ],
+            "disponibilidad": 10
         }
     },
     {
@@ -131,7 +133,8 @@
             "Medidas": [
                 "Gel hidroalcohólico",
                 "Test antígenos 2 días antes"
-            ]
+            ],
+            "disponibilidad": 95
         }
     },
     {
@@ -176,7 +179,8 @@
                 "Gel hidroalcohólico en todos los sitios comunes",
                 "Spa cerrado",
                 "Limpieza diaria de habitación"
-            ]
+            ],
+            "disponibilidad": 25
         }
     },
     {
@@ -216,7 +220,8 @@
         "dadesPropies": {
             "Medidas": [
                 "Gel hidroalcohólico en habitaciones"
-            ]
+            ],
+            "disponibilidad": 72
         }
     }
 ]

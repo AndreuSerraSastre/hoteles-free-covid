@@ -46,7 +46,7 @@ const HotelDetail = ({ id }) => {
                             <div className="hoteldetail-main-information-covid">
                                 <div className="hoteldetail-titulo-covid">
                                     <h2 className="hoteldetail-titulo-covid-titulo">Medidas Covid-19</h2>
-                                    <img className="hoteldetail-covid" alt="Covid imagen" src={process.env.PUBLIC_URL + '/images/coronavirus.png'}></img>
+                                    <img className="hoteldetail-covid" alt="Covid imagen" src={process.env.PUBLIC_URL + '/images/coronavirus.svg'}></img>
                                 </div>
                                 <hr></hr>
                                 <ul>

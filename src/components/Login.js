@@ -7,10 +7,14 @@ import { autentificate, usuarioGet } from '../actions/usuarioAction';
 import { useDispatch, useSelector } from 'react-redux';
 import { useAlert } from 'react-alert';
 import Loading from './Loading';
+import { useEffect } from 'react';
+import { getCookie, setCookie } from '../utils';
 
 const Login = ({ setRegistrarse, setModalVisible }) => {
 
   const [loading, setLoading] = useState(false);
+  const [password, setPassword] = useState();
+  const [username, setUsername] = useState();
   let usuarios = useSelector(state => state.usuarios);
   const dispatch = useDispatch();
   const alert = useAlert()
@@ -27,15 +31,24 @@ const Login = ({ setRegistrarse, setModalVisible }) => {
       alert.show('ERROR DE CONEXIÓN CON EL SERVIDOR.')
     } else {
       setModalVisible(false);
+      setCookie("username", values.username)
+      setCookie("password", values.password)
     }
     setLoading(false);
   };
+
+  useEffect(() => {
+    setUsername(getCookie("username"))
+    setPassword(getCookie("password"))
+  }, [])
 
   return (
     <Form
       name="normal_login"
       className="login-form"
       initialValues={{
+        password,
+        username,
         remember: true,
       }}
       onFinish={onFinish}
@@ -68,7 +81,7 @@ const Login = ({ setRegistrarse, setModalVisible }) => {
       </Form.Item>
       <Form.Item>
         <Form.Item name="remember" valuePropName="checked" noStyle>
-          <Checkbox>Recuerdame</Checkbox>
+          <Checkbox>Recuérdame</Checkbox>
         </Form.Item>
 
         <h4 className="login-form-forgot">Recuperar contraseña</h4>

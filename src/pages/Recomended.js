@@ -110,6 +110,15 @@ const Recomended = ({ id }) => {
                     "filter": ["==", "modelId", 1],
                 });
             });
+            navigator.geolocation.getCurrentPosition(function (position) {
+                var el = document.createElement('div');
+                el.className = 'marker';
+
+                new mapboxgl.Marker(el)
+                    .setLngLat([position.coords.longitude, position.coords.latitude])
+                    .addTo(map);
+            });
+
 
             new mapboxgl.Marker({
                 color: "#FF0000",

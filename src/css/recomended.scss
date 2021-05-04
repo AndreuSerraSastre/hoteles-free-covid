@@ -48,32 +48,32 @@
   }
 }
 
-.mapboxgl-popup-content{
+.mapboxgl-popup-content {
   display: flex;
   flex-direction: row;
   align-items: center;
   min-width: 300px;
 }
 
-.imagen-popup{
+.imagen-popup {
   width: 100px;
   height: 100px;
   margin-right: 8px;
 }
 
-.popup-main{
+.popup-main {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.titulo-popup{
+.titulo-popup {
   font-weight: 600;
   font-size: 12px !important;
   margin-bottom: 0em;
 }
 
-.info-popup{
+.info-popup {
   font-size: 11px;
   margin-bottom: 0em;
 }
@@ -83,4 +83,13 @@
   .recomended-main {
     margin: $alturaHeader/2 $marginrighleft/10 0 $marginrighleft/10;
   }
+}
+
+.marker {
+  background-image: url('https://www.flaticon.es/svg/vstatic/svg/4264/4264795.svg?token=exp=1620123387~hmac=eded8350278da598ec9d29521c71274c');
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }

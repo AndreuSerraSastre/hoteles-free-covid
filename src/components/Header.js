@@ -61,7 +61,7 @@ const Header = () => {
         <header className="header-main">
             {width < 1900 ?
                 <></> :
-                <img alt="home" className="header-image" onClick={goHome} src={process.env.PUBLIC_URL + '/images/signo-de-hotel.png'}></img>
+                <img alt="home" className="header-image" onClick={goHome} src={process.env.PUBLIC_URL + '/images/signo-de-hotel.svg'}></img>
             }
             <Search placeholder="Buscar..." allowClear onSearch={onSearch} defaultValue={filtro} style={{ width: 400 }} />
             <div className="header-buttons">

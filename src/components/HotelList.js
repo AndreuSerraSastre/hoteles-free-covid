@@ -5,6 +5,11 @@ import HotelListElement from './HotelListElement';
 import { Select } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
 import { OPCION } from '../constants';
+import { Modal, Button } from 'antd';
+import Filter from './Filter';
+import { useEffect } from 'react';
+import { comentariosGet } from '../actions/comentarioAction';
+import { puntuacionesGet } from '../actions/puntuacionesAction';
 
 const HotelList = ({ Horizontal, id }) => {
 
@@ -14,19 +19,34 @@ const HotelList = ({ Horizontal, id }) => {
   let puntuaciones = useSelector(state => state.puntuaciones);
   let opcion = useSelector(state => state.opcion);
   const [value, setValue] = useState(opcion);
-  const [refrescar, setRefrescar] = useState(false);
+  const [filter, setFilter] = useState([[], [], [], [], []]);
   let filtro = useSelector(state => state.filtro);
 
   const dispatch = useDispatch();
 
   const changeValue = (value) => {
     setValue(value);
-    setRefrescar(!refrescar);
     dispatch({ type: OPCION, payload: { opcion: value } });
   }
 
-  const filtrarDatos = (value) => {
+  const filtrarDatos = (value, filter) => {
     let hotelesFilter = hoteles.filter(hotel => hotel.nom.toLowerCase().includes(filtro.toLowerCase()));
+
+    if (filter[0].length != 0) {
+      hotelesFilter = hotelesFilter.filter(hotel => filter[0].includes(hotel.puntuacio));
+    }
+    if (filter[1].length != 0) {
+      hotelesFilter = hotelesFilter.filter(hotel => filter[1].includes(hotel.dadesPropies.Medidas.length));
+    }
+    if (filter[2].length != 0) {
+      hotelesFilter = hotelesFilter.filter(hotel => filter[2].includes(comentarios.find(x => x.identificador === hotel.identificador).comentarios.length));
+    }
+    if (filter[3].length != 0) {
+      hotelesFilter = hotelesFilter.filter(hotel => filter[3].includes(puntuaciones?.find(x => x.identificador === hotel.identificador).puntuaciones.length));
+    }
+    if (filter[4].length != 0) {
+      hotelesFilter = hotelesFilter.filter(hotel => filter[4].includes(hotel.dadesPropies.disponibilidad + " %"));
+    }
 
     switch (value) {
       case "asc-stars":
@@ -165,31 +185,46 @@ const HotelList = ({ Horizontal, id }) => {
     return hotelesFilter;
   }
 
-  const CargarHoteles = (value) => {
+  useEffect(async () => {
+    if (!comentarios || comentarios.length === 0) {
+      comentarios = await dispatch(comentariosGet());
+    }
+    if (!puntuaciones || puntuaciones.length === 0) {
+      puntuaciones = await dispatch(puntuacionesGet());
+    }
+  }, [])
+
+  const CargarHoteles = (value, filter) => {
     if (hoteles != null) {
-      let hotelesFilter = filtrarDatos(value);
-      return hotelesFilter.map((hotel, key) => <HotelListElement key={key} Horizontal={Horizontal} id={id} hotel={hotel} refrescar={refrescar}></HotelListElement>)
+      let hotelesFilter = filtrarDatos(value, filter);
+      return hotelesFilter.map((hotel, key) => <HotelListElement key={key} Horizontal={Horizontal} id={id} hotel={hotel}></HotelListElement>)
     }
     return (<h2>No hay hoteles</h2>);
   }
 
   return (
     <div className={`PerfectScrollbar-MAIN${Horizontal}`}>
-      <Select placeholder="Ordernar por: " className="PerfectScrollbar-select" onChange={changeValue} defaultValue={value}>
-        <Option value="asc-stars">Mejor puntuación</Option>
-        <Option value="desc-stars">Peor puntuación</Option>
-        <Option value="namea-z">Alfabéticamente</Option>
-        <Option value="asc-comentados">Más comentados</Option>
-        <Option value="desc-comentados">Menos comentados</Option>
-        <Option value="asc-puntuaciones">Más puntuaciones</Option>
-        <Option value="desc-puntuaciones">Menos puntuaciones</Option>
-        <Option value="asc-disponibilidad">Mayor disponibilidad</Option>
-        <Option value="desc-disponibilidad">Menor disponibilidad</Option>
-        <Option value="asc-medidas">Más medidas</Option>
-        <Option value="desc-medidas">Menos medidas</Option>
-      </Select>
+      <div className="filterList">
+        <Select placeholder="Ordernar por: " className="PerfectScrollbar-select" onChange={changeValue} defaultValue={value}>
+          <Option value="asc-stars">Mejor puntuación</Option>
+          <Option value="desc-stars">Peor puntuación</Option>
+          <Option value="namea-z">Alfabéticamente</Option>
+          <Option value="asc-comentados">Más comentados</Option>
+          <Option value="desc-comentados">Menos comentados</Option>
+          <Option value="asc-puntuaciones">Más puntuaciones</Option>
+          <Option value="desc-puntuaciones">Menos puntuaciones</Option>
+          <Option value="asc-disponibilidad">Mayor disponibilidad</Option>
+          <Option value="desc-disponibilidad">Menor disponibilidad</Option>
+          <Option value="asc-medidas">Más medidas</Option>
+          <Option value="desc-medidas">Menos medidas</Option>
+        </Select>
+        {hoteles !== 0 && comentarios.length !== 0 && puntuaciones !== 0 ?
+          <Filter hoteles={hoteles} comentarios={comentarios} puntuaciones={puntuaciones} setFilter={setFilter}></Filter> :
+          <></>
+        }
+      </div>
       <div className={`PerfectScrollbar${Horizontal}`}>
-        {CargarHoteles(value)}
+        {CargarHoteles(value, filter)}
       </div>
     </div>
   );

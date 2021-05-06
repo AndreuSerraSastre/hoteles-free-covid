@@ -8,3 +8,4 @@ export const OPCION = 'opcion';
 export const FILTRO = 'filtro';
 export const COMENTARIOS = 'comentarios';
 export const PUNTUACIONES = 'puntuaciones';
+export const FILTERLIST = 'FILTERLIST';

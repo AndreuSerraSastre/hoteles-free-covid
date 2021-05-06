@@ -7,17 +7,21 @@
   overflow-x: hidden;
   overflow-y: auto;
   max-height: 800px;
+
   &::-webkit-scrollbar {
     width: 5px;
   }
+
   &::-webkit-scrollbar-track {
     border-radius: 5px;
     background: transparent;
   }
+
   &::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background: #bebebe9a;
   }
+
   &::-webkit-scrollbar-thumb:hover {
     background: rgb(134, 134, 134);
   }
@@ -39,24 +43,24 @@
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-bottom: 50px;
+
   &::-webkit-scrollbar {
     height: 5px;
   }
+
   &::-webkit-scrollbar-track {
     border-radius: 5px;
     background: transparent;
   }
+
   &::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background: #bebebe9a;
   }
+
   &::-webkit-scrollbar-thumb:hover {
     height: 15px;
     background: rgb(134, 134, 134);
-  }
-  .PerfectScrollbar-select {
-    position: absolute !important;
-    width:55%;
   }
 }
 
@@ -95,7 +99,7 @@
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-.Hotel-list-element-selected{
+.Hotel-list-element-selected {
   box-shadow: rgba(rgb(49, 99, 0), 0.4) 0px 0px 0px 2px,
     rgba(rgb(49, 99, 0), 0.65) 0px 4px 6px -1px,
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
@@ -119,7 +123,11 @@
   height: 100%;
 }
 
-.Hotel-list-element-stars {
+.MuiPaper-elevation4{
+  width: 80% !important;
+}
+
+.MuiRating-readOnly {
   position: absolute !important;
   right: 10px !important;
   bottom: 0px !important;
@@ -134,11 +142,60 @@
 
 .PerfectScrollbar-select {
   width: 80%;
-  margin: 20px 10% 10px 10% !important;
+  font-size: 1em !important;
+}
+
+.MuiTypography-h6 {
+  font-weight: 400 !important;
+}
+
+.PerfectScrollbar-select {
+  margin-bottom: 15px !important;
+}
+
+.MuiIconButton-root {
+  padding: 2px !important;
+}
+
+.MUIDataTable-responsiveBase-93 {
+  display: none !important;
+}
+
+.MuiTable-root {
+  display: none !important;
+}
+
+.MUIDataTableToolbar-left-103 {
+  display: none !important;
+}
+
+.MUIDataTableToolbar-actions-105 {
+  text-align: center !important;
+}
+
+.MuiPaper-elevation4 {
+  width: fit-content;
+}
+
+.MuiToolbar-regular {
+  min-height: auto !important;
+}
+
+.filterList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.MUIDataTableFilterList-root-28 {
+  margin-bottom: 10px !important;
 }
 
 @media only screen and (max-width: 1900px) {
   .PerfectScrollbarHorizontal {
     margin: 50px 50px 0 0;
-  }  
+  }
 }

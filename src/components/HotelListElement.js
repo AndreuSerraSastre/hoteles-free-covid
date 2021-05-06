@@ -1,10 +1,10 @@
 import React from 'react';
 import './../css/hotelList.scss'
-import ReactStars from "react-rating-stars-component";
+import Rating from '@material-ui/lab/Rating';
 import { Divider } from 'antd';
 import history from './../history';
 
-const HotelListElement = ({ Horizontal, id, hotel, refrescar }) => {
+const HotelListElement = ({ Horizontal, id, hotel }) => {
 
     const hotelSelected = () => {
         if (history.location.pathname.split('/')[1] === "Recomended") {
@@ -22,26 +22,7 @@ const HotelListElement = ({ Horizontal, id, hotel, refrescar }) => {
                     backgroundImage: `url(${hotel.imatges[0]})`
                 }}>
                     <div className="star-main">
-                        {refrescar ?
-                            <ReactStars
-                                classNames="Hotel-list-element-stars"
-                                count={5}
-                                value={hotel.puntuacio}
-                                edit={false}
-                                size={30}
-                                activeColor="#fcc42b"
-                            /> :
-                            <div>
-                                <ReactStars
-                                    classNames="Hotel-list-element-stars"
-                                    count={5}
-                                    value={hotel.puntuacio}
-                                    edit={false}
-                                    size={30}
-                                    activeColor="#fcc42b"
-                                />
-                            </div>
-                        }
+                        <Rating name="read-only" size="large" classNames="Hotel-list-element-stars" value={hotel.puntuacio} readOnly />
                     </div>
                 </div>
             </div>

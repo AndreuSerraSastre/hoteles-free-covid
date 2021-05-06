@@ -67,7 +67,6 @@ const Comentarios = ({ visible, setVisible, id }) => {
     }
 
     const addPuntuacion = async (puntuacionForm) => {
-        console.log(puntuacionForm)
         setLoading(true);
         const puntuacion = {
             nombre: usuario.nombre,

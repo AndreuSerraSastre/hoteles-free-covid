@@ -1,0 +1,1459 @@
+[
+  {
+    "nom": "Dragon Sushi",
+    "descripcio": "Este restaurante japonés de Palma pone a tu disposición una completa carta de productos que harán las delicias de los amantes de sushi y comida japonesa. Sumérgete en la cultura oriental y deja que la combinación de cada uno de sus platos te conquiste.",
+    "detall": "",
+    "tipus": "Japonés",
+    "identificador": "00",
+    "comentari": "",
+    "preu": {
+      "import": "14",
+      "coment-preu": ""
+    },
+    "contacte": {
+      "telf": "871770395",
+      "email": "",
+      "xarxes": [
+        {
+          "facebook": ""
+        },
+        {
+          "twitter": ""
+        },
+        {
+          "tripadvisor": ""
+        },
+        {
+          "instagram": ""
+        },
+        {
+          "youtube": ""
+        }
+      ]
+    },
+    "puntuacio": "5",
+    "visualitzacions": "100",
+    "likes": 0,
+    "icones": [
+      " ",
+      " "
+    ],
+    "imatges": [
+      "https://bares-mallorca.netlify.app/img/bares/DragonSushi/dragonsushi.png",
+      "https://bares-mallorca.netlify.app/img/bares/DragonSushi/dragonsushi1.png",
+      "https://bares-mallorca.netlify.app/img/bares/DragonSushi/dragonsushi2.png",
+      "https://bares-mallorca.netlify.app/img/bares/DragonSushi/dragonsushi3.png",
+      "https://bares-mallorca.netlify.app/img/bares/DragonSushi/dragonsushi4.png"
+    ],
+    "videos": [
+      {
+        "tipus": "youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=5d82Y3EYeqE"
+      }
+    ],
+    "audio": [
+      {
+        "tipus": ""
+      },
+      {
+        "url": ""
+      }
+    ],
+    "geoposicionament1": {
+      "address": "carrer d'Antoni Marquès",
+      "lat": 39.57925070180628,
+      "long": 2.6503255265876535,
+      "city": "Palma",
+      "Country": "España",
+      "zip": "07003"
+    },
+    "geoposicionament2": {
+      "address": "",
+      "lat": "",
+      "long": "",
+      "city": "",
+      "Country": "",
+      "zip": ""
+    },
+    "horari": {},
+    "calendari": {
+      "startDataEvent": "",
+      "startTimeEvent": "",
+      "endDataEvent": "",
+      "endTimeEvent": ""
+    },
+    "dadesPropies": {
+      "comentaris": [
+        {
+          "comentario": {
+            "nombre": "Robert",
+            "valoración": "1",
+            "fecha": "7 Oct 2018",
+            "texto": "En Rusia estaba más rico"
+          }
+        },
+        {
+          "comentario": {
+            "nombre": "Dilpreet",
+            "valoración": "5",
+            "fecha": "30 diciembre 2021",
+            "texto": "invité a mi chica al kfc y madremia, en casa me invitó ella a otra cosa y Robert miraba"
+          }
+        }
+      ],
+      "carta": {
+        "comida": [
+          "Sushi",
+          "Más sushi",
+          "Pan"
+        ],
+        "bebida": [
+          "Coca Cola",
+          "Pepsi"
+        ],
+        "postres": [
+          "Sandía",
+          "Melón"
+        ]
+      }
+    }
+  },
+  {
+    "nom": "La Tagliatella",
+    "descripcio": "La Tagliatella es una cadena de restaurantes especializados en la gastronomía italiana de calidad, ofreciendo en su carta los platos típicos de Italia como son la pasta, las pizzas, los productos antipasti, sus famosos postres italianos, y muchos más platos.",
+    "detall": "",
+    "tipus": "Italiano",
+    "identificador": "",
+    "comentari": "",
+    "preu": {
+      "import": "12",
+      "coment-preu": ""
+    },
+    "contacte": {
+      "telf": "971446070",
+      "email": "",
+      "xarxes": [
+        {
+          "facebook": ""
+        },
+        {
+          "twitter": ""
+        },
+        {
+          "tripadvisor": ""
+        },
+        {
+          "instagram": ""
+        },
+        {
+          "youtube": ""
+        }
+      ]
+    },
+    "puntuacio": "5",
+    "visualitzacions": "100",
+    "likes": 0,
+    "icones": [
+      " ",
+      " "
+    ],
+    "imatges": [
+      "https://bares-mallorca.netlify.app/img/bares/Tagliatella/tagliatella.png",
+      "https://bares-mallorca.netlify.app/img/bares/Tagliatella/tagliatella1.png",
+      "https://bares-mallorca.netlify.app/img/bares/Tagliatella/tagliatella2.png",
+      "https://bares-mallorca.netlify.app/img/bares/Tagliatella/tagliatella3.png",
+      "https://bares-mallorca.netlify.app/img/bares/Tagliatella/tagliatella4.png"
+    ],
+    "videos": [
+      {
+        "tipus": "youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=sUrl0U3xCEE"
+      }
+    ],
+    "audio": [
+      {
+        "tipus": ""
+      },
+      {
+        "url": ""
+      }
+    ],
+    "geoposicionament1": {
+      "address": "Avinguda del Comte de Sallent",
+      "lat": 39.578167907346256,
+      "long": 2.649933853009034,
+      "city": "Palma",
+      "Country": "España",
+      "zip": "07003"
+    },
+    "geoposicionament2": {
+      "address": "",
+      "lat": 0,
+      "long": 0,
+      "city": "",
+      "Country": "",
+      "zip": ""
+    },
+    "horari": {},
+    "calendari": {
+      "startDataEvent": "",
+      "startTimeEvent": "",
+      "endDataEvent": "",
+      "endTimeEvent": ""
+    },
+    "dadesPropies": {
+      "comentaris": [
+        {
+          "comentario": {
+            "nombre": "Robert",
+            "valoración": "3",
+            "fecha": "20 Nov 2020",
+            "texto": "Excepcionales pizzas y pasta. Muy originales, lo nunca visto. Muy bueno todo y raciones muy muy generosas. Recomendable. Terraza agradable. Servicio atento. Precio adecuado."
+          }
+        },
+        {
+          "comentario": {
+            "nombre": "",
+            "valoración": "",
+            "fecha": "",
+            "texto": ""
+          }
+        }
+      ],
+      "carta": {
+        "comida": [
+          "Pasta",
+          "Pizza",
+          "Ravioli"
+        ],
+        "bebida": [
+          "Coca Cola",
+          "Fanta"
+        ],
+        "postres": [
+          "Sandía",
+          "Helado"
+        ]
+      }
+    }
+  },
+  {
+    "nom": "Buffet Daoyi",
+    "descripcio": "En Restaurante Japones Daoyi podrás disfrutar de un magnifico buffet a la carta, con los platos preparados al momento y servidos directamente en tu mesa. Y podrás repetir todas la veces que quieras.",
+    "detall": "",
+    "tipus": "Japonés",
+    "identificador": "",
+    "comentari": "",
+    "preu": {
+      "import": "9",
+      "coment-preu": ""
+    },
+    "contacte": {
+      "telf": "9714460345",
+      "email": "",
+      "xarxes": [
+        {
+          "facebook": ""
+        },
+        {
+          "twitter": ""
+        },
+        {
+          "tripadvisor": ""
+        },
+        {
+          "instagram": ""
+        },
+        {
+          "youtube": ""
+        }
+      ]
+    },
+    "puntuacio": "4",
+    "visualitzacions": "100",
+    "likes": 0,
+    "icones": [
+      " ",
+      " "
+    ],
+    "imatges": [
+      "https://bares-mallorca.netlify.app/img/bares/daoyi/daoyi.png",
+      "https://bares-mallorca.netlify.app/img/bares/daoyi/daoyi1.png",
+      "https://bares-mallorca.netlify.app/img/bares/daoyi/daoyi2.png",
+      "https://bares-mallorca.netlify.app/img/bares/daoyi/daoyi3.png",
+      "https://bares-mallorca.netlify.app/img/bares/daoyi/daoyi4.png"
+    ],
+    "videos": [
+      {
+        "tipus": "youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MtrqiW3Vj9s&ab_channel=CenandoconPablo"
+      }
+    ],
+    "audio": [
+      {
+        "tipus": ""
+      },
+      {
+        "url": ""
+      }
+    ],
+    "geoposicionament1": {
+      "address": "Avinguda del Comte de Sallent",
+      "lat": 39.60655925985988,
+      "long": 2.669213870767948,
+      "city": "Palma",
+      "Country": "España",
+      "zip": "07003"
+    },
+    "geoposicionament2": {
+      "address": "",
+      "lat": 0,
+      "long": 0,
+      "city": "",
+      "Country": "",
+      "zip": ""
+    },
+    "horari": {},
+    "calendari": {
+      "startDataEvent": "",
+      "startTimeEvent": "",
+      "endDataEvent": "",
+      "endTimeEvent": ""
+    },
+    "dadesPropies": {
+      "comentaris": [
+        {
+          "comentario": {
+            "nombre": "",
+            "valoración": "",
+            "fecha": "",
+            "texto": ""
+          }
+        },
+        {
+          "comentario": {
+            "nombre": "Alberto",
+            "valoración": "5",
+            "fecha": "20 Nov 2020",
+            "texto": "De locos"
+          }
+        }
+      ],
+      "carta": {
+        "comida": [
+          "Sushi",
+          "Sushi muy Rico",
+          "Sushi Delicioso"
+        ],
+        "bebida": [
+          "Coca Cola",
+          "Fanta"
+        ],
+        "postres": [
+          "Sandía",
+          "Helado"
+        ]
+      }
+    }
+  },
+  {
+    "nom": "Bar Cayuco",
+    "descripcio": "Es un bar típico de España, donde se sirve una tapa acompañando a la bebida, ya sea con o sin alcohol.",
+    "detall": "",
+    "tipus": "Comida rápida",
+    "identificador": "",
+    "comentari": "",
+    "preu": {
+      "import": "7",
+      "coment-preu": ""
+    },
+    "contacte": {
+      "telf": "871738827",
+      "email": "",
+      "xarxes": [
+        {
+          "facebook": ""
+        },
+        {
+          "twitter": ""
+        },
+        {
+          "tripadvisor": ""
+        },
+        {
+          "instagram": ""
+        },
+        {
+          "youtube": ""
+        }
+      ]
+    },
+    "puntuacio": "5",
+    "visualitzacions": "100",
+    "likes": 0,
+    "icones": [
+      " ",
+      " "
+    ],
+    "imatges": [
+      "https://bares-mallorca.netlify.app/img/bares/BarCayuco/cayuco.png",
+      "https://bares-mallorca.netlify.app/img/bares/BarCayuco/cayuco1.png",
+      "https://bares-mallorca.netlify.app/img/bares/BarCayuco/cayuco2.png",
+      "https://bares-mallorca.netlify.app/img/bares/BarCayuco/cayuco3.png",
+      "https://bares-mallorca.netlify.app/img/bares/BarCayuco/cayuco4.png"
+    ],
+    "videos": [
+      {
+        "tipus": "youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=v40hgnL0b68"
+      }
+    ],
+    "audio": [
+      {
+        "tipus": ""
+      },
+      {
+        "url": ""
+      }
+    ],
+    "geoposicionament1": {
+      "address": "Aenida de la Platja, 14",
+      "lat": 39.52644463832956,
+      "long": 2.538540097750089,
+      "city": "Palma",
+      "Country": "España",
+      "zip": "07400"
+    },
+    "geoposicionament2": {
+      "address": "",
+      "lat": 0,
+      "long": 0,
+      "city": "",
+      "Country": "",
+      "zip": ""
+    },
+    "horari": {},
+    "calendari": {
+      "startDataEvent": "",
+      "startTimeEvent": "",
+      "endDataEvent": "",
+      "endTimeEvent": ""
+    },
+    "dadesPropies": {
+      "comentaris": [
+        {
+          "comentario": {
+            "nombre": "Robert",
+            "valoración": "3",
+            "fecha": "20 Nov 2020",
+            "texto": "Típico bar que encuentras en la geografía española pero en zona turística. Atención muy correcta y precios normales."
+          }
+        },
+        {
+          "comentario": {
+            "nombre": "",
+            "valoración": "",
+            "fecha": "",
+            "texto": ""
+          }
+        }
+      ],
+      "carta": {
+        "comida": [
+          "Tapas",
+          "Cerveza",
+          "Bocata"
+        ],
+        "bebida": [
+          "Coca Cola",
+          "Fanta"
+        ],
+        "postres": [
+          "Pa amb oli",
+          "Kinder Surprise"
+        ]
+      }
+    }
+  },
+  {
+    "nom": "Kapadokya",
+    "descripcio": "Quieres pedir comida de Kapadokya en Palma, España? Glovo te lleva tu pedido a casa de forma fácil y rápida. Pide con Glovo ahora.",
+    "detall": "",
+    "tipus": "Comida rápida",
+    "identificador": "",
+    "comentari": "",
+    "preu": {
+      "import": "14",
+      "coment-preu": ""
+    },
+    "contacte": {
+      "telf": "971751473",
+      "email": "kapokia@gmail.com",
+      "xarxes": [
+        {
+          "facebook": ""
+        },
+        {
+          "twitter": ""
+        },
+        {
+          "tripadvisor": ""
+        },
+        {
+          "instagram": ""
+        },
+        {
+          "youtube": ""
+        }
+      ]
+    },
+    "puntuacio": "3",
+    "visualitzacions": "100",
+    "likes": 0,
+    "icones": [
+      " ",
+      " "
+    ],
+    "imatges": [
+      "https://bares-mallorca.netlify.app/img/bares/Kapadokya/capadocia.png",
+      "https://bares-mallorca.netlify.app/img/bares/Kapadokya/capadocia1.png",
+      "https://bares-mallorca.netlify.app/img/bares/Kapadokya/capadocia2.png",
+      "https://bares-mallorca.netlify.app/img/bares/Kapadokya/capadocia3.png",
+      "https://bares-mallorca.netlify.app/img/bares/Kapadokya/capadocia4.png"
+    ],
+    "videos": [
+      {
+        "tipus": "youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=g177uXHuzaM&ab_channel=IVMBaleares"
+      }
+    ],
+    "audio": [
+      {
+        "tipus": ""
+      },
+      {
+        "url": ""
+      }
+    ],
+    "geoposicionament1": {
+      "address": "Av. Gaspar de Bennazar, 37, 07004 Palma, Illes Balears",
+      "lat": 39.583041560611406,
+      "long": 2.658081297751908,
+      "city": "Palma de Mallorca",
+      "Country": "España",
+      "zip": "07004"
+    },
+    "geoposicionament2": {
+      "address": "",
+      "lat": "",
+      "long": "",
+      "city": "",
+      "Country": "",
+      "zip": ""
+    },
+    "horari": {},
+    "calendari": {
+      "startDataEvent": "",
+      "startTimeEvent": "",
+      "endDataEvent": "",
+      "endTimeEvent": ""
+    },
+    "dadesPropies": {
+      "comentaris": [
+        {
+          "comentario": {
+            "nombre": "Lucifer",
+            "valoración": "4",
+            "fecha": "20/10/2020",
+            "texto": "Los kebabs de aquí son excelentes! Las salsas como diablo!!! Muy bueno."
+          }
+        },
+        {
+          "comentario": {
+            "nombre": "",
+            "valoración": "",
+            "fecha": "",
+            "texto": ""
+          }
+        }
+      ],
+      "carta": {
+        "comida": [
+          "Ensalada Mixta",
+          "Dürum con queso",
+          "Kebap",
+          "Falafel en pan"
+        ],
+        "bebida": [
+          "Coca Cola",
+          "Sprite",
+          "J&B",
+          "Heineken Classic"
+        ],
+        "postres": [
+          "Baklava"
+        ]
+      }
+    }
+  },
+  {
+    "nom": "Yucateco",
+    "descripcio": "Restaurante mexicano, variedad de tacos, flautas, nachos, quesadillas, empanadas, burritos, alitas de pollo picantes, tequilas, margaritas, Mezcal, mexicanas guapas etc.",
+    "detall": "",
+    "tipus": "Comida rápida",
+    "identificador": "",
+    "comentari": "",
+    "preu": {
+      "import": "9",
+      "coment-preu": ""
+    },
+    "contacte": {
+      "telf": "622383094",
+      "email": "",
+      "xarxes": [
+        {
+          "facebook": ""
+        },
+        {
+          "twitter": ""
+        },
+        {
+          "tripadvisor": ""
+        },
+        {
+          "instagram": ""
+        },
+        {
+          "youtube": ""
+        }
+      ]
+    },
+    "puntuacio": "4",
+    "visualitzacions": "100",
+    "likes": 0,
+    "icones": [
+      " ",
+      " "
+    ],
+    "imatges": [
+      "https://bares-mallorca.netlify.app/img/bares/yucateco/yucateco.png",
+      "https://bares-mallorca.netlify.app/img/bares/yucateco/yucateco1.png",
+      "https://bares-mallorca.netlify.app/img/bares/yucateco/yucateco2.png",
+      "https://bares-mallorca.netlify.app/img/bares/yucateco/yucateco3.png",
+      "https://bares-mallorca.netlify.app/img/bares/yucateco/yucateco4.png"
+    ],
+    "videos": [
+      {
+        "tipus": "youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=3SoC1hcWO_U"
+      }
+    ],
+    "audio": [
+      {
+        "tipus": ""
+      },
+      {
+        "url": ""
+      }
+    ],
+    "geoposicionament1": {
+      "address": "Carrer Francesc Sancho, 17",
+      "lat": 39.58149494111665,
+      "long": 2.6506998253088634,
+      "city": "Palma",
+      "Country": "España",
+      "zip": "07004"
+    },
+    "geoposicionament2": {
+      "address": "",
+      "lat": "",
+      "long": "",
+      "city": "",
+      "Country": "",
+      "zip": ""
+    },
+    "horari": {},
+    "calendari": {
+      "startDataEvent": "",
+      "startTimeEvent": "",
+      "endDataEvent": "",
+      "endTimeEvent": ""
+    },
+    "dadesPropies": {
+      "comentaris": [
+        {
+          "comentario": {
+            "nombre": "Andreas",
+            "valoración": "4",
+            "fecha": "30 Nov 2019",
+            "texto": "la comida da asco"
+          }
+        },
+        {
+          "comentario": {
+            "nombre": "",
+            "valoración": "",
+            "fecha": "",
+            "texto": ""
+          }
+        }
+      ],
+      "carta": {
+        "comida": [
+          "Burrito",
+          "Nachos",
+          "Tacos"
+        ],
+        "bebida": [
+          "Coca cola",
+          "Cerveza"
+        ],
+        "postres": [
+          "Melón",
+          "Helado"
+        ]
+      }
+    }
+  },
+  {
+    "nom": "Sushi King",
+    "descripcio": "Restaurante japonés de fusión asiática, Sushi King te ofrece un amplia carta de sushi destacando sus propias creaciones de Sushi King rolls cocidos o frescos. Consulta nuestras ofertas 2X1 TODOS los días. Además tienen Buffet libre de Sushi.",
+    "detall": "",
+    "tipus": "Japonés",
+    "identificador": "",
+    "comentari": "",
+    "preu": {
+      "import": "11",
+      "coment-preu": ""
+    },
+    "contacte": {
+      "telf": "971101149",
+      "email": "",
+      "xarxes": [
+        {
+          "facebook": ""
+        },
+        {
+          "twitter": ""
+        },
+        {
+          "tripadvisor": ""
+        },
+        {
+          "instagram": ""
+        },
+        {
+          "youtube": ""
+        }
+      ]
+    },
+    "puntuacio": "5",
+    "visualitzacions": "100",
+    "likes": 0,
+    "icones": [
+      " ",
+      " "
+    ],
+    "imatges": [
+      "https://bares-mallorca.netlify.app/img/bares/sushyking/sushiking.png",
+      "https://bares-mallorca.netlify.app/img/bares/sushyking/sushiking1.png",
+      "https://bares-mallorca.netlify.app/img/bares/sushyking/sushiking2.png",
+      "https://bares-mallorca.netlify.app/img/bares/sushyking/sushiking3.png",
+      "https://bares-mallorca.netlify.app/img/bares/sushyking/sushiking4.png"
+    ],
+    "videos": [
+      {
+        "tipus": "youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=HaO0fwFZ6Ns"
+      }
+    ],
+    "audio": [
+      {
+        "tipus": ""
+      },
+      {
+        "url": ""
+      }
+    ],
+    "geoposicionament1": {
+      "address": "C/ del General Riera, 22",
+      "lat": 39.58337464480676,
+      "long": 2.647609387763049,
+      "city": "Palma",
+      "Country": "España",
+      "zip": "07003"
+    },
+    "geoposicionament2": {
+      "address": "",
+      "lat": "",
+      "long": "",
+      "city": "",
+      "Country": "",
+      "zip": ""
+    },
+    "horari": {},
+    "calendari": {
+      "startDataEvent": "",
+      "startTimeEvent": "",
+      "endDataEvent": "",
+      "endTimeEvent": ""
+    },
+    "dadesPropies": {
+      "comentaris": [
+        {
+          "comentario": {
+            "nombre": "Juan Bolsa",
+            "valoración": "5",
+            "fecha": "5 Dec 2020",
+            "texto": "Me encanta el restaurante, pero mas Robert :)"
+          }
+        },
+        {
+          "comentario": {
+            "nombre": "",
+            "valoración": "",
+            "fecha": "",
+            "texto": ""
+          }
+        }
+      ],
+      "carta": {
+        "comida": [
+          "Sushi California",
+          "Sushi Marinado",
+          "Otros tipos de sushi"
+        ],
+        "bebida": [
+          "Pepsi",
+          "Cerveza"
+        ],
+        "postres": [
+          "Helado",
+          "Tarta de zanahoria"
+        ]
+      }
+    }
+  },
+  {
+    "nom": "Shi Shan Xuan",
+    "descripcio": "Un restaurante chino",
+    "detall": "",
+    "tipus": "Chino",
+    "identificador": "",
+    "comentari": "",
+    "preu": {
+      "import": "9",
+      "coment-preu": ""
+    },
+    "contacte": {
+      "telf": "971771723",
+      "email": "",
+      "xarxes": [
+        {
+          "facebook": ""
+        },
+        {
+          "twitter": ""
+        },
+        {
+          "tripadvisor": ""
+        },
+        {
+          "instagram": ""
+        },
+        {
+          "youtube": ""
+        }
+      ]
+    },
+    "puntuacio": "5",
+    "visualitzacions": "100",
+    "likes": 0,
+    "icones": [
+      " ",
+      " "
+    ],
+    "imatges": [
+      "https://bares-mallorca.netlify.app/img/bares/ShiShanXuan/shi.png",
+      "https://bares-mallorca.netlify.app/img/bares/ShiShanXuan/shi1.png",
+      "https://bares-mallorca.netlify.app/img/bares/ShiShanXuan/shi2.png",
+      "https://bares-mallorca.netlify.app/img/bares/ShiShanXuan/shi3.png",
+      "https://bares-mallorca.netlify.app/img/bares/ShiShanXuan/shi4.png"
+    ],
+    "videos": [
+      {
+        "tipus": "youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=vbapE7t5HGU"
+      }
+    ],
+    "audio": [
+      {
+        "tipus": ""
+      },
+      {
+        "url": ""
+      }
+    ],
+    "geoposicionament1": {
+      "address": "Carrer Uetam, 3",
+      "lat": 39.573886725433354,
+      "long": 2.660150082408048,
+      "city": "Palma",
+      "Country": "España",
+      "zip": "07006"
+    },
+    "geoposicionament2": {
+      "address": "",
+      "lat": "",
+      "long": "",
+      "city": "",
+      "Country": "",
+      "zip": ""
+    },
+    "horari": {},
+    "calendari": {
+      "startDataEvent": "",
+      "startTimeEvent": "",
+      "endDataEvent": "",
+      "endTimeEvent": ""
+    },
+    "dadesPropies": {
+      "comentaris": [
+        {
+          "comentario": {
+            "nombre": "Alberto",
+            "valoración": "5",
+            "fecha": "14 Sep 2019",
+            "texto": "Es el mejor restaurante chino de Palma. La comida está muy rica."
+          }
+        },
+        {
+          "comentario": {
+            "nombre": "",
+            "valoración": "",
+            "fecha": "",
+            "texto": ""
+          }
+        }
+      ],
+      "carta": {
+        "comida": [
+          "Pollo con salsa picante",
+          "Tallarines con pollo",
+          "Pan chino"
+        ],
+        "bebida": [
+          "Coca cola",
+          "Pepsi"
+        ],
+        "postres": [
+          "Sandía",
+          "Mandarinas"
+        ]
+      }
+    }
+  },
+  {
+    "nom": "Kebab Gabriela",
+    "descripcio": "Pide Kebab a domicilio en Palma de forma rápida y cómoda con Just Eat. Tenemos la mejor variedad de restaurantes de Kebab para elegir cerca de ti.",
+    "detall": "",
+    "tipus": "Comida Rápida",
+    "identificador": "",
+    "comentari": "",
+    "preu": {
+      "import": "7",
+      "coment-preu": ""
+    },
+    "contacte": {
+      "telf": "652044040",
+      "email": "",
+      "xarxes": [
+        {
+          "facebook": ""
+        },
+        {
+          "twitter": ""
+        },
+        {
+          "tripadvisor": ""
+        },
+        {
+          "instagram": ""
+        },
+        {
+          "youtube": ""
+        }
+      ]
+    },
+    "puntuacio": "3",
+    "visualitzacions": "100",
+    "likes": 0,
+    "icones": [
+      " ",
+      " "
+    ],
+    "imatges": [
+      "https://bares-mallorca.netlify.app/img/bares/Kebab Gabriela/gabriela.png",
+      "https://bares-mallorca.netlify.app/img/bares/Kebab Gabriela/gabriela1.png",
+      "https://bares-mallorca.netlify.app/img/bares/Kebab Gabriela/gabriela2.png",
+      "https://bares-mallorca.netlify.app/img/bares/Kebab Gabriela/gabriela3.png",
+      "https://bares-mallorca.netlify.app/img/bares/Kebab Gabriela/gabriela4.png"
+    ],
+    "videos": [
+      {
+        "tipus": "youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=PfK_p_p9NEI&ab_channel=T3K"
+      }
+    ],
+    "audio": [
+      {
+        "tipus": ""
+      },
+      {
+        "url": ""
+      }
+    ],
+    "geoposicionament1": {
+      "address": "C. del Camp Redó, 28",
+      "lat": 39.607115702465904,
+      "long": 2.678910257455299,
+      "city": "Palma de Mallorca",
+      "Country": "España",
+      "zip": "07010"
+    },
+    "geoposicionament2": {
+      "address": "",
+      "lat": "",
+      "long": "",
+      "city": "",
+      "Country": "",
+      "zip": ""
+    },
+    "horari": {},
+    "calendari": {
+      "startDataEvent": "",
+      "startTimeEvent": "",
+      "endDataEvent": "",
+      "endTimeEvent": ""
+    },
+    "dadesPropies": {
+      "comentaris": [
+        {
+          "comentario": {
+            "nombre": "",
+            "valoración": "",
+            "fecha": "",
+            "texto": ""
+          }
+        },
+        {
+          "comentario": {
+            "nombre": "Antoni Bibiloni",
+            "valoración": "1",
+            "fecha": "10 de Feb 2018",
+            "texto": "La comida no esta muy buena, pero esta practica se merece un 10"
+          }
+        }
+      ],
+      "carta": {
+        "comida": [
+          "Kebab",
+          "Dürum",
+          "Pizzas"
+        ],
+        "bebida": [
+          "Agua",
+          "Coca Cola",
+          "Sprite"
+        ],
+        "postres": [
+          "",
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "nom": "Mallorca Doner Kebab",
+    "descripcio": "",
+    "detall": "",
+    "tipus": "Comida Rápida",
+    "identificador": "",
+    "comentari": "",
+    "preu": {
+      "import": "9",
+      "coment-preu": ""
+    },
+    "contacte": {
+      "telf": "652044040",
+      "email": "",
+      "xarxes": [
+        {
+          "facebook": ""
+        },
+        {
+          "twitter": ""
+        },
+        {
+          "tripadvisor": ""
+        },
+        {
+          "instagram": ""
+        },
+        {
+          "youtube": ""
+        }
+      ]
+    },
+    "puntuacio": "5",
+    "visualitzacions": "100",
+    "likes": 0,
+    "icones": [
+      " ",
+      " "
+    ],
+    "imatges": [
+      "https://bares-mallorca.netlify.app/img/bares/MallorcaDonerKebab/donerkebab.png",
+      "https://bares-mallorca.netlify.app/img/bares/MallorcaDonerKebab/donerkebab1.png",
+      "https://bares-mallorca.netlify.app/img/bares/MallorcaDonerKebab/donerkebab2.png",
+      "https://bares-mallorca.netlify.app/img/bares/MallorcaDonerKebab/donerkebab3.png",
+      "https://bares-mallorca.netlify.app/img/bares/MallorcaDonerKebab/donerkebab4.png"
+    ],
+    "videos": [
+      {
+        "tipus": "youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=3QmgQFOHzr8&ab_channel=AUDIOVISOR"
+      }
+    ],
+    "audio": [
+      {
+        "tipus": ""
+      },
+      {
+        "url": ""
+      }
+    ],
+    "geoposicionament1": {
+      "address": "Carrer del Pare Jeroni Boscana, 32",
+      "lat": 39.59330064478115,
+      "long": 2.6842879870750584,
+      "city": "Palma de Mallorca",
+      "Country": "España",
+      "zip": "07008"
+    },
+    "geoposicionament2": {
+      "address": "",
+      "lat": "",
+      "long": "",
+      "city": "",
+      "Country": "",
+      "zip": ""
+    },
+    "horari": {},
+    "calendari": {
+      "startDataEvent": "",
+      "startTimeEvent": "",
+      "endDataEvent": "",
+      "endTimeEvent": ""
+    },
+    "dadesPropies": {
+      "comentaris": [
+        {
+          "comentario": {
+            "nombre": "",
+            "valoración": "",
+            "fecha": "",
+            "texto": ""
+          }
+        },
+        {
+          "comentario": {
+            "nombre": "Pedro",
+            "valoración": "5",
+            "fecha": "12 Oct 2020",
+            "texto": "Comida Buena, atenión muy rápida y personal amabale."
+          }
+        }
+      ],
+      "carta": {
+        "comida": [
+          "Kebab",
+          "Dürum",
+          "Pizzas"
+        ],
+        "bebida": [
+          "Agua",
+          "Coca Cola",
+          "Sprite"
+        ],
+        "postres": [
+          "",
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "nom": "Sushiclass",
+    "descripcio": "Restaurante de sushi de alta calidad",
+    "detall": "",
+    "tipus": "Japonés",
+    "identificador": "",
+    "comentari": "",
+    "preu": {
+      "import": "15",
+      "coment-preu": ""
+    },
+    "contacte": {
+      "telf": "971731173",
+      "email": "",
+      "xarxes": [
+        {
+          "facebook": ""
+        },
+        {
+          "twitter": ""
+        },
+        {
+          "tripadvisor": ""
+        },
+        {
+          "instagram": ""
+        },
+        {
+          "youtube": ""
+        }
+      ]
+    },
+    "puntuacio": "1",
+    "visualitzacions": "100",
+    "likes": 0,
+    "icones": [
+      " ",
+      " "
+    ],
+    "imatges": [
+      "https://bares-mallorca.netlify.app/img/bares/Sushiclass/sushiclass.png",
+      "https://bares-mallorca.netlify.app/img/bares/Sushiclass/sushiclass1.png",
+      "https://bares-mallorca.netlify.app/img/bares/Sushiclass/sushiclass2.png",
+      "https://bares-mallorca.netlify.app/img/bares/Sushiclass/sushiclass3.png",
+      "https://bares-mallorca.netlify.app/img/bares/Sushiclass/sushiclass4.png"
+    ],
+    "videos": [
+      {
+        "tipus": "youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=KAie9DKMcZU"
+      }
+    ],
+    "audio": [
+      {
+        "tipus": ""
+      },
+      {
+        "url": ""
+      }
+    ],
+    "geoposicionament1": {
+      "address": "Carrer de Francesc Suau, 14",
+      "lat": 39.58425400262918,
+      "long": 2.6522944651693945,
+      "city": "Palma",
+      "Country": "España",
+      "zip": "07010"
+    },
+    "geoposicionament2": {
+      "address": "",
+      "lat": "",
+      "long": "",
+      "city": "",
+      "Country": "",
+      "zip": ""
+    },
+    "horari": {},
+    "calendari": {
+      "startDataEvent": "",
+      "startTimeEvent": "",
+      "endDataEvent": "",
+      "endTimeEvent": ""
+    },
+    "dadesPropies": {
+      "comentaris": [
+        {
+          "comentario": {
+            "nombre": "Dilpreet",
+            "valoración": "1",
+            "fecha": "7 Oct 2018",
+            "texto": "me da asco este sitio la verdad no se que decir, es que la comida esta horrible"
+          }
+        },
+        {
+          "comentario": {
+            "nombre": "",
+            "valoración": "",
+            "fecha": "",
+            "texto": ""
+          }
+        }
+      ],
+      "carta": {
+        "comida": [
+          "Sushi",
+          "Rolls",
+          "Wok"
+        ],
+        "bebida": [
+          "Fanta",
+          "Sprite"
+        ],
+        "postres": [
+          "Tarta de chocolate",
+          "Tarta de queso"
+        ]
+      }
+    }
+  },
+  {
+    "nom": "KFC",
+    "descripcio": "El mejor restaurante del mundo, madre mia menudas hamburguesas, chorrean de grasa, que rico colesterol, delicioso!",
+    "detall": "",
+    "tipus": "Comida rápida",
+    "identificador": "",
+    "comentari": "",
+    "preu": {
+      "import": "8",
+      "coment-preu": ""
+    },
+    "contacte": {
+      "telf": "666221144",
+      "email": "kfc@gmail.com",
+      "xarxes": [
+        {
+          "facebook": ""
+        },
+        {
+          "twitter": ""
+        },
+        {
+          "tripadvisor": ""
+        },
+        {
+          "instagram": ""
+        },
+        {
+          "youtube": ""
+        }
+      ]
+    },
+    "puntuacio": "5",
+    "visualitzacions": "100",
+    "likes": 0,
+    "icones": [
+      " ",
+      " "
+    ],
+    "imatges": [
+      "https://bares-mallorca.netlify.app/img/bares/kfc/kfc.png",
+      "https://bares-mallorca.netlify.app/img/bares/kfc/kfc1.png",
+      "https://bares-mallorca.netlify.app/img/bares/kfc/kfc2.png",
+      "https://bares-mallorca.netlify.app/img/bares/kfc/kfc3.png",
+      "https://bares-mallorca.netlify.app/img/bares/kfc/kfc4.png"
+    ],
+    "videos": [
+      {
+        "tipus": "youtube"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=rj5k0xlCJK4&ab_channel=KaliMuscle"
+      }
+    ],
+    "audio": [
+      {
+        "tipus": ""
+      },
+      {
+        "url": ""
+      }
+    ],
+    "geoposicionament1": {
+      "address": "Plaça d'Espanya, 13, 07002 Palma, Illes Balears",
+      "lat": 39.5766452467582,
+      "long": 2.6533527917800854,
+      "city": "Palma de Mallorca",
+      "Country": "España",
+      "zip": "07010"
+    },
+    "geoposicionament2": {
+      "address": "",
+      "lat": "",
+      "long": "",
+      "city": "",
+      "Country": "",
+      "zip": ""
+    },
+    "horari": {},
+    "calendari": {
+      "startDataEvent": "",
+      "startTimeEvent": "",
+      "endDataEvent": "",
+      "endTimeEvent": ""
+    },
+    "dadesPropies": {
+      "comentaris": [
+        {
+          "comentario": {
+            "nombre": "barackobama",
+            "valoración": "1",
+            "fecha": "20.11.2020",
+            "texto": "What ca n I say but this place needs a revamp in customer service skills and to teach Chefs to produce “ Proper Sushi “ Never in my days have I been offered Sushi with Banana and Crispy Duck plus the staff were borderline rude and our Edamame were either frozen or old as the taste was awful ☹️ plus two pieces off Salmon Sushi had bones Do yourself a favor and pass this place and eat in comfort elsewhere as it’s a disgrace to call this a Sushi Restaurant 0/10 for Vile Food & Seriously bad service"
+          }
+        },
+        {
+          "comentario": {
+            "nombre": "",
+            "valoración": "",
+            "fecha": "",
+            "texto": ""
+          }
+        }
+      ],
+      "carta": {
+        "comida": [
+          "Pollo",
+          "Patatas fritas",
+          "Hamburguesa doble queso",
+          "Cucarachas"
+        ],
+        "bebida": [
+          "Cola",
+          "Fanta"
+        ],
+        "postres": [
+          "Helado",
+          "McFlurry"
+        ]
+      }
+    }
+  }
+]

@@ -1,18 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ReactWeather, { useOpenWeather } from 'react-open-weather';
-import { useSelector } from 'react-redux';
 
-const ReactWeatherComponent = ({ id }) => {
+const ReactWeatherComponent = ({ hotel }) => {
 
-    const hotel = useSelector(state => state.hoteles.find(hotel => hotel.identificador === id));
-
-        const { data, isLoading, errorMessage } = useOpenWeather({
-            key: '45cdf11aab3ea5515644ae6f583108e3',
-            lat: hotel?.geoposicionament1.lat,
-            lon: hotel?.geoposicionament1.long,
-            lang: 'es',
-            unit: 'metric', // values are (metric, standard, imperial)
-        });
+    const { data, isLoading, errorMessage } = useOpenWeather({
+        key: '45cdf11aab3ea5515644ae6f583108e3',
+        lat: hotel?.geoposicionament1.lat,
+        lon: hotel?.geoposicionament1.long,
+        lang: 'es',
+        unit: 'metric', // values are (metric, standard, imperial)
+    });
 
     return (
         <div>

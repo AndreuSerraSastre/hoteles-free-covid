@@ -15,7 +15,7 @@ const Header = () => {
 
     const [ModalVisible, setModalVisible] = useState(false);
     const [Registrarse, setRegistrarse] = useState(false);
-    const { height, width } = useWindowDimensions();
+    const { width } = useWindowDimensions();
     let auth = useSelector(state => state.authorization.auth);
     let usuario = useSelector(state => state.authorization.usuario);
     let filtro = useSelector(state => state.filtro);

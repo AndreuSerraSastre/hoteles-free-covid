@@ -1,0 +1,1631 @@
+        [
+            {
+                "nom": "Cala den Serra",
+                "descripcio": "Preciosa cala al norte de la isla de Ibiza, playa de arena con increible paisaje",
+                "detall": "",
+                "tipus": "",
+                "identificador": "IB01",
+                "preu": {
+                    "import": "",
+                    "coment-preu": ""
+                },
+                "contacte": {
+                    "telf": "",
+                    "email": "",
+                    "xarxes": {
+                        "web": "",
+                        "facebook": "",
+                        "twitter": "",
+                        "instagram": ""
+                    }
+                },
+                "puntuacio": 0,
+                "visualitzacions": "",
+                "likes": 0,
+                "icones": [
+                    ""
+                ],
+                "imatges": [
+                    "https://fatchini.neocities.org/img/CalaDenSerra/CDS-01.jpg",
+                    "https://fatchini.neocities.org/img/CalaDenSerra/CDS-02.jpg",
+                    "https://fatchini.neocities.org/img/CalaDenSerra/CDS-03.jpg",
+                    "https://fatchini.neocities.org/img/CalaDenSerra/CDS-04.jpg",
+                    "https://fatchini.neocities.org/img/CalaDenSerra/CDS-05.jpg"
+                ],
+                "videos": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    },
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "audio": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "geoposicionament1": {
+                    "address": "",
+                    "lat": 39.10784383860648,
+                    "long": 1.538223742617995,
+                    "city": "Portinatx",
+                    "Country": "España",
+                    "zip": "07810"
+                },
+                "geoposicionament2": {
+                    "address": "",
+                    "lat": 0,
+                    "long": 0,
+                    "city": "",
+                    "Country": "",
+                    "zip": ""
+                },
+                "horari": {
+                    "di": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dm": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dx": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dv": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "ds": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dg": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ]
+                },
+                "calendari": {
+                    "startDataEvent": "",
+                    "startTimeEvent": "",
+                    "endDataEvent": "",
+                    "endTimeEvent": ""
+                },
+                "dadesPropies": {
+                    "isla": "Ibiza",
+                    "textoArticulo": [
+                        "Cala den Serra es una de las calas con más encanto de Ibiza: una cala muy poco conocida, rodeada de una naturaleza exuberante y con un agua transparente bellísima y donde darse un baño es muy gratificante, especialmente para los amantes del buceo.<br>Situada en el norte de la isla X, esta cala se ubica en una zona prácticamente virgen. Debido a la lejanía de la Cala X de los principales núcleos de la isla, es una cala muy poco visitada, e incluso desconocida para muchos isleños.",
+                        "Sin ninguna duda, lo que más atrae de este lugar es que se trata de una cala auténticamente mediterránea, lejos de hoteles, beach clubs y masificaciones. En sus apenas 50 metros de largo por 20 de ancho, hay lugar para todo aquel que quiera disfrutar del mar en la costa norte de la isla. La arena de la playa es gruesa, pero está sobre un lecho de piedra y rocas. Por lo tanto, para entrar en el agua de la cala, recomendamos usar nuestros escarpines, especialmente por la gran cantidad de erizos de mar que hay una vez nos estemos bañando.<br>Una vez nos hayamos sumergido, tanto a la izquierda como a la derecha hay zonas rocosas donde recomendamos bucear, por lo que no puedes olvidar las gafas de buceo para venir a esta cala. Si seguimos por mar hacia la derecha de la cala, encontraremos una pequeñísima cala a la que únicamente es posible llegar nadando. Está formado por grandes cantos rodados sobre la que se ha depositado una gran cantidad de Posidonia Oceánica, por lo que si buscas un lugar totalmente aislado donde practicar nudismo, éste es tu sitio.",
+                        "La cala tiene un acceso muy complicado y se encuentra prácticamente virgen, por lo que no se ofrecen muchos servicios en la playa. Sin embargo, hay un pequeño chiringuito a pie de playa donde se sirven hamburguesas y bocadillos, bebidas frías y helados.<br>También es posible alquilar hamacas y sombrillas en Cala d’en Serra, aunque afortunadamente no hay demasiadas y no suponen una molestia para el resto de bañistas. A pesar de ser una cala con muchas piedras y rocas, hay arena suficiente para clavar nuestra propia sombrilla si lo deseamos.",
+                        "Como hemos dicho anteriormente, Cala d’en Serra se encuentra en una zona muy alejada de la mayoría de resto de pueblos de Ibiza: es una de las playas situadas más al norte de la isla de Ibiza, ubicada entre el núcleo de Portinatx y el pueblo de Sant Joan de Labritja. Para llegar a Cala d’en Serra, hay que llegar hasta Portinatx, siguiendo la carretera de San Juan, y desviarnos por el desvío que encontraremos en el centro de ese núcleo. Tras seguir la carretera, encontraremos fácilmente la señal que indica la cala. También es posible llegar desde Sant Joan tomando la carretera norte, aunque se trata de una carretera muy serpeante por las montañas, por lo que no se trata de un cámino fácil. Una vez lleguemos al desvío a Cala d’en Serra, el camino deja de estar asfaltado, por lo que es posible que queramos dejar nuestro coche aquí si no queremos golpear los bajos de nuestro vehículo. Si deseas continuar, puedes hacerlo hasta aparcar al lado de la construcción que se encuentra cerca de la playa. Aún así, tendrás que bajar un pequeño camino, por lo que no recomendamos la visita a Cala d’en Serra para personas de movilidad reducida."
+                    ],
+                    "dadesPlatja": {
+                        "tipoPlaya": "Arena Gruesa",
+                        "hamacas": true,
+                        "sombrillas": true,
+                        "chringuito": true,
+                        "restaurantes": false,
+                        "socorrista": false,
+                        "alquiler barcas": false,
+                        "duchas": false,
+                        "retretes": false
+                    }
+                }
+            },
+            {
+                "nom": "Aigues Blanques",
+                "descripcio": "La playa de Aigües blanques (también conocida como Aguas Blancas) es uno de los arenales declarados oficialmente como playa nudista en Ibiza.",
+                "detall": "",
+                "tipus": "",
+                "identificador": "IB02",
+                "preu": {
+                    "import": "",
+                    "coment-preu": ""
+                },
+                "contacte": {
+                    "telf": "",
+                    "email": "",
+                    "xarxes": {
+                        "web": "",
+                        "facebook": "",
+                        "twitter": "",
+                        "instagram": ""
+                    }
+                },
+                "puntuacio": 0,
+                "visualitzacions": "",
+                "likes": 0,
+                "icones": [
+                    ""
+                ],
+                "imatges": [
+                    "https://fatchini.neocities.org/img/AiguesBlanques/AB-01.jpg",
+                    "https://fatchini.neocities.org/img/AiguesBlanques/AB-02.jpg",
+                    "https://fatchini.neocities.org/img/AiguesBlanques/AB-03.jpg",
+                    "https://fatchini.neocities.org/img/AiguesBlanques/AB-04.jpg"
+                ],
+                "videos": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    },
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "audio": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "geoposicionament1": {
+                    "address": "",
+                    "lat": 39.0603516630166,
+                    "long": 1.5890540965692,
+                    "city": "Sant Carles de Peralta",
+                    "Country": "España",
+                    "zip": "07850"
+                },
+                "geoposicionament2": {
+                    "address": "",
+                    "lat": 0,
+                    "long": 0,
+                    "city": "",
+                    "Country": "",
+                    "zip": ""
+                },
+                "horari": {
+                    "di": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dm": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dx": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dv": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "ds": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dg": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ]
+                },
+                "calendari": {
+                    "startDataEvent": "",
+                    "startTimeEvent": "",
+                    "endDataEvent": "",
+                    "endTimeEvent": ""
+                },
+                "dadesPropies": {
+                    "isla": "Ibiza",
+                    "textoArticulo": [
+                        "La playa de Aigües blanques (también conocida como Aguas Blancas) es uno de los arenales declarados oficialmente como playa nudista en Ibiza.<br>Su curioso nombre se debe a una serie de factores, como que Aigües Blanques se encuentra muy expuesta a los vientos, ya que no se encuentra en ninguna ensenada que protega a la playa.<br>Además, la pendiente en Aigües Blanques dentro del agua es muy poco pronunciada, lo que provoca que tengáis que caminar mucho para que el agua os cubra. De modo que entre el viento produce muchas olas que se van rompiendo contra la arena, lo que en muchas ocasiones provoca que toda la playa de Aigües Blanques esté cubierta de la espuma del mar: de ahí vienen las aguas blancas.",
+                        "Aigües Blanques es otra de las calas de Ibiza donde es posible hacer un baños de barro. Los acantilados que se encuentran a lo largo de toda la playa y están formados de un mineral de color grisáceo. Tan sólo tenemos que utilizar una botella de agua para mojar la pared del acantilado y obtendremos un barro perfecto para poder extender por nuestros cuerpos.<br>Son muchos los que aprovechan su paso por Aigües Blanques para darse un baño de barro, ya que se le suponen propiedades regenerativas sobre la piel. Aunque no está demostrado, nosotros siempre que vamos no desaprovechamos la ocasión ¡No se pierde nada por intentarlo!<br>Es habitual ver a bañistas untados de barro gris caminando por toda la playa mientras el sol va secando el barro. Para quitarse el barro no hay nada más fácil: basta con darse un baño y nuestra piel volverá a quedar limpia de nuevo.",
+                        "La playa de Aigües blanques tiene un chiringuito en el cual podemos pedir bebida e incluso comida.",
+                        "Para llegar a la playa nudista de Aigües Blanques, tendréis que llegar hasta el pueblo de San Carlos pasando por delante del bar Ca Na Aneta (parada obligatoria para degustar unas hierbas ibicencas caseras). Pasado el bar girad a la izquierda y a velocidad moderada, ya que la carretera es estrecha y con curvas, estad alerta para no pasaros el desvío que hay a mano izquierda (esa misma carretera también os llevará hasta la Cala San Vicente pero antes encontrareis el desvío a Aigües Blanques a vuestra derecha). En temporada alta no se permite bajar el coche hasta la playa, así que lo podréis dejar en el parking que hay justo antes de la bajada y pagar 3€ por PARKING+DUCHA (sin comentarios) o aparcar un poco más lejos gratis. Hay una buena bajadita andando hasta la playa de Aigües Blanques, así que cuando volváis se convertirá lógicamente en una, aún más divertida, subidita. Para llegar a la zona nudista,  una vez lleguéis a la playa dirigíos hacia la parte izquierda de Aigües Blanques."
+                    ],
+                    "dadesPlatja": {
+                        "tipoPlaya": "Arena Fina",
+                        "hamacas": true,
+                        "sombrillas": true,
+                        "chringuito": true,
+                        "restaurantes": false,
+                        "socorrista": false,
+                        "alquiler barcas": false,
+                        "duchas": false,
+                        "retretes": false
+                    }
+                }
+            },
+            {
+                "nom": "Benirras",
+                "descripcio": "Playa de entorno natural, aguas limpias, ambiente hippie y con la puesta de sol mas famosa de todas.",
+                "detall": "",
+                "tipus": "",
+                "identificador": "IB03",
+                "preu": {
+                    "import": "",
+                    "coment-preu": ""
+                },
+                "contacte": {
+                    "telf": "",
+                    "email": "",
+                    "xarxes": {
+                        "web": "",
+                        "facebook": "",
+                        "twitter": "",
+                        "instagram": ""
+                    }
+                },
+                "puntuacio": 0,
+                "visualitzacions": "",
+                "likes": 0,
+                "icones": [
+                    ""
+                ],
+                "imatges": [
+                    "https://fatchini.neocities.org/img/Benirras/BNR-01.jpg",
+                    "https://fatchini.neocities.org/img/Benirras/BNR-02.jpg",
+                    "https://fatchini.neocities.org/img/Benirras/BNR-03.jpg",
+                    "https://fatchini.neocities.org/img/Benirras/BNR-04.jpg",
+                    "https://fatchini.neocities.org/img/Benirras/BNR-05.jpg"
+                ],
+                "videos": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    },
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "audio": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "geoposicionament1": {
+                    "address": "",
+                    "lat": 39.08936509207601,
+                    "long": 1.4537269603201033,
+                    "city": "Sant Miquel de Balansat",
+                    "Country": "España",
+                    "zip": "07810"
+                },
+                "geoposicionament2": {
+                    "address": "",
+                    "lat": 0,
+                    "long": 0,
+                    "city": "",
+                    "Country": "",
+                    "zip": ""
+                },
+                "horari": {
+                    "di": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dm": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dx": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dv": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "ds": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dg": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ]
+                },
+                "calendari": {
+                    "startDataEvent": "",
+                    "startTimeEvent": "",
+                    "endDataEvent": "",
+                    "endTimeEvent": ""
+                },
+                "dadesPropies": {
+                    "isla": "Ibiza",
+                    "textoArticulo": [
+                        "La playa de Benirràs es una de las más famosas de Ibiza, y es que tiene muchísimos encantos que hacen de este lugar un sitio muy especial: entorno natural, aguas limpias, una puesta de sol espectacular y un ambiente hippie auténtico en Ibiza, con la conocida fiesta de los tambores de Benirràs.",
+                        "La playa está en una pequeña ensenada entre dos pequeños montes de bosque, un enclave natural espectacular, que nos hace ver que aun quedan playas vírgenes en Ibiza. Pero si el entorno de la playa se mantiene tan bonito, no lo es menos el fondo marino. A ambos lados de la playa, hay muchas zonas de roca donde se harán las delicias de a los que les guste practicar el buceo en las playas de Ibiza. Por otro lado, en la orilla encontramos grava, por lo que no es una de las calas más cómodas, ni tranquilas, para visitar.<br>Una de las características más reconocibles de esta playa es el Cap Bernat, el islote que se encuentra frente a la cala y que ineludiblemente se cuela en todas las fotografías que se realizan durante la puesta de sol.<brLa playa apenas tiene 300 metros de longitud, de reducido tamaño en comparación con otras playas de la isla, pero la magia del lugar y las puestas de sol provocan que mucha gente vaya a esta playa en verano. Es por eso que te recomendamos que si quieres ver como el sol se esconde tras el horizonte, vayas con antelación a Benirràs: la playa se llena incluso se hace muy difícil aparcar.",
+                        "Benirras cuenta con servicio de hamacas y sombrillas, pero si no quieres invertir en ellos, recuerda llevar la tuya propia y una esterilla, porque la arena es de grano grueso y tomar el sol en una toalla puede resultar algo incomodo. Ademas de esto en la playa hay varios restaurantes en los que se puede comer o cenar despues de bañarse.",
+                        "Para llegar a la playa de Benirràs, gira por el desvío a la derecha que hay justo antes de llegar a San Miguel. Tras una carretera que serpentea entre montañas y valles de bosques verdes llegarás a Benirràs. Es una de las playas más al norte de la isla de Ibiza. Ten en cuenta que los domingos por la tarde, la zona del aparcamiento se llena debido a la cantidad de gente que quiere ver la puesta de sol y disfrutar de la fiesta hippie de los tambores de Benirràs."
+                    ],
+                    "dadesPlatja": {
+                        "tipoPlaya": "Arena Gruesa",
+                        "hamacas": true,
+                        "sombrillas": true,
+                        "chringuito": true,
+                        "restaurantes": true,
+                        "socorrista": true,
+                        "alquiler barcas": false,
+                        "duchas": true,
+                        "retretes": true
+                    }
+                }
+            },
+            {
+                "nom": "Cala d'Hort",
+                "descripcio": "Una de las mejores playas de la isla, con vista al islote de Es vedra frente a la cala.",
+                "detall": "",
+                "tipus": "",
+                "identificador": "IB04",
+                "preu": {
+                    "import": "",
+                    "coment-preu": ""
+                },
+                "contacte": {
+                    "telf": "",
+                    "email": "",
+                    "xarxes": {
+                        "web": "",
+                        "facebook": "",
+                        "twitter": "",
+                        "instagram": ""
+                    }
+                },
+                "puntuacio": 0,
+                "visualitzacions": "",
+                "likes": 0,
+                "icones": [
+                    ""
+                ],
+                "imatges": [
+                    "https://fatchini.neocities.org/img/CalaDhort/CDH-01.jpg",
+                    "https://fatchini.neocities.org/img/CalaDhort/CDH-02.jpg",
+                    "https://fatchini.neocities.org/img/CalaDhort/CDH-03.jpg",
+                    "https://fatchini.neocities.org/img/CalaDhort/CDH-04.jpg"
+                ],
+                "videos": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    },
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "audio": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "geoposicionament1": {
+                    "address": "",
+                    "lat": 38.890326652611286,
+                    "long": 1.2241657492176286,
+                    "city": "Sant Josep de sa Talaia",
+                    "Country": "España",
+                    "zip": "07839"
+                },
+                "geoposicionament2": {
+                    "address": "",
+                    "lat": 0,
+                    "long": 0,
+                    "city": "",
+                    "Country": "",
+                    "zip": ""
+                },
+                "horari": {
+                    "di": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dm": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dx": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dv": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "ds": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dg": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ]
+                },
+                "calendari": {
+                    "startDataEvent": "",
+                    "startTimeEvent": "",
+                    "endDataEvent": "",
+                    "endTimeEvent": ""
+                },
+                "dadesPropies": {
+                    "isla": "Ibiza",
+                    "textoArticulo": [
+                        "Cala D'Hort es una playa bien protegida, con estructura de bahía muy cerrada y con la desembocadura de un torrente en sus arenas. Cuenta con un perimetro de 200 metros de longitud y 30 de ancho, compuesto de una arena fina natural y de color claro con zonas rocosas en ambos extremos. El fondo de sus aguas es de arena con poca profundidad y una pendiente suave.",
+                        "Cala d’Hort es, sin duda, una de las mejores playas de Ibiza. Sin duda, lo que hace que esta playa sea un lugar especial y mágico es el imponente islote de Es Vedrà alzándose 385 metros del mar frente a la cala. Su figura inconfundible y su tamaño la hacen presente desde todos los rincones de la cala, es imposible apartar la mirada de la magnética roca.<br>De hecho, Es Vedrà está separado unos centenares de metros de Cala D’Hort pero su impresionante tamaño da la impresión de estar más cerca de nosotros cuando entramos al agua. Si además conoces todos los misterios y secretos del islote de Es Vedrà, seguro que disfrutarás aún más de tu día en esta playa del suroeste de Ibiza.<br>Esta playa también guarda entre sus encantos la conservación del entorno natural. En los años 90 algunos empresarios planearon construir un campo de golf y distintas macroconstrucciones en Cala d’Hort, pero los ibicencos reaccionaron de forma contundente en contra de la destrucción de esta zona de alto valor medioambiental. Finalmente Cala d’Hort fue declarada parque natural y podemos disfrutar de la belleza de sus alrededores hoy en día.<br>La playa además presume de algunos restaurantes donde probar especialidades ibicencas. Además de disfrutar de espectaculares vistas a Es Vedrà, abrir una botella de vino comer un buen arroz o un pescado junto al mar. Si aceptas un consejo pide un bullit de peix, uno de los platos más queridos por los ibicencos.",
+                        "En esta playa se encuentran algunos de los mejores restaurantes de la isla, los cuales poseen vistas increibles y donde podras degustar los platos tipicos de la gastronomia ibicenca.",
+                        "Para llegar a esta playa se recomienda el coche, ya que los autobuses no pasen frecuentemente y el camino es solo recomendado para ciclistas experimentados, debido a las pronunciadas cuestas que nos vamos a encontrar. Podemos ir a Cala D’Hort desde San José, dirigiéndonos por el desvío de Es Cubells, o desde San Antonio. Hay que tener en cuenta que el aparcamiento de esta cala es minúscula y en verano es un lugar muy visitado, por lo que seguramente tendrás que dejar tu coche en la cuesta que baja hacia la cala y dar un pequeño paseo a pie hasta la playa."
+                    ],
+                    "dadesPlatja": {
+                        "tipoPlaya": "Arena Fina",
+                        "hamacas": true,
+                        "sombrillas": true,
+                        "chringuito": false,
+                        "restaurantes": true,
+                        "socorrista": true,
+                        "alquiler barcas": false,
+                        "duchas": false,
+                        "retretes": false
+                    }
+                }
+            },
+            {
+                "nom": "Ses Covetes",
+                "descripcio": "Playa de arena situada al oeste de la urbanización de Ses Covetes, cerca de sa Ràpita en Campos.",
+                "detall": "",
+                "tipus": "",
+                "identificador": "ML01",
+                "preu": {
+                    "import": "",
+                    "coment-preu": ""
+                },
+                "contacte": {
+                    "telf": "",
+                    "email": "",
+                    "xarxes": {
+                        "web": "",
+                        "facebook": "",
+                        "twitter": "",
+                        "instagram": ""
+                    }
+                },
+                "puntuacio": 0,
+                "visualitzacions": "",
+                "likes": 0,
+                "icones": [
+                    ""
+                ],
+                "imatges": [
+                    "https://fatchini.neocities.org/img/SesCovetes/SC-01.jpg",
+                    "https://fatchini.neocities.org/img/SesCovetes/SC-02.jpg",
+                    "https://fatchini.neocities.org/img/SesCovetes/SC-03.jpg",
+                    "https://fatchini.neocities.org/img/SesCovetes/SC-04.jpg"
+                ],
+                "videos": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    },
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "audio": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "geoposicionament1": {
+                    "address": "",
+                    "lat": 39.356669878613424,
+                    "long": 2.9681968664680904,
+                    "city": "Campos",
+                    "Country": "España",
+                    "zip": "07639"
+                },
+                "geoposicionament2": {
+                    "address": "",
+                    "lat": 0,
+                    "long": 0,
+                    "city": "",
+                    "Country": "",
+                    "zip": ""
+                },
+                "horari": {
+                    "di": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dm": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dx": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dv": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "ds": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dg": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ]
+                },
+                "calendari": {
+                    "startDataEvent": "",
+                    "startTimeEvent": "",
+                    "endDataEvent": "",
+                    "endTimeEvent": ""
+                },
+                "dadesPropies": {
+                    "isla": "Mallorca",
+                    "textoArticulo": [
+                        "Ses Covetes es una playa de arena situada al oeste de la urbanización de Ses Covetes, cerca de sa Rapita en Campos. Es una playa muy conocida y frecuentada tanto por isleños como por turistas. Es una playa muy recomendable pero se debe tener en cuenta en temporada alta el alto volumen de bañistas que hay en el lugar.",
+                        "Ses Covetes es un gran arenal blanco de grano fino, con unas dimensiones de 300 metros de longitud y 200 metros de ancho, todo un entorno natural en el que poder disfruta del agua cristalina, las dunas, el atardacer y los versos del poema Cala Gentil escritos en los antiguos nidos de ametralladoras. Pertenece al Área Natural de Especial Interés Es Trenc-Salobrar de Campos.",
+                        "En la localización podemos encontrar todo tipo de servicios, los bañistas disponen de servicio de hamacas y sombrillas para alquilar, chiringuito en la propia playa y algunos restaurantes en los que disfrutar de una buena comida. Además aquí está el chiringuito de s'Embat, con la mejor música en directo alternativa de Mallorca y muy buen ambiente.",
+                        "Para llegar a la localización hay que dirigirse hacia Ses Covetes, una vez se llega al núcleo de Ses Covetes hay un aparcamiento tarifado para unos 300 vehiculos. La playa está al llegar a Ses Covetes hacia la derecha, desde el aparcamiento hay que caminar 15 minutos, tambien existe la opción de aparcar al lado de la playa (pero en verano hay pocas plazas)."
+                    ],
+                    "dadesPlatja": {
+                        "tipoPlaya": "Arena Fina",
+                        "hamacas": true,
+                        "sombrillas": true,
+                        "chringuito": true,
+                        "restaurantes": true,
+                        "socorrista": true,
+                        "alquiler barcas": false,
+                        "duchas": false,
+                        "retretes": false
+                    }
+                }
+            },
+            {
+                "nom": "Cala Deia",
+                "descripcio": "Idílica cala de piedras situada cerca del pueblo de Deia.",
+                "detall": "",
+                "tipus": "",
+                "identificador": "ML02",
+                "preu": {
+                    "import": "",
+                    "coment-preu": ""
+                },
+                "contacte": {
+                    "telf": "",
+                    "email": "",
+                    "xarxes": {
+                        "web": "",
+                        "facebook": "",
+                        "twitter": "",
+                        "instagram": ""
+                    }
+                },
+                "puntuacio": 0,
+                "visualitzacions": "",
+                "likes": 0,
+                "icones": [
+                    ""
+                ],
+                "imatges": [
+                    "https://fatchini.neocities.org/img/CalaDeia/CDA-01.jpg",
+                    "https://fatchini.neocities.org/img/CalaDeia/CDA-02.jpg",
+                    "https://fatchini.neocities.org/img/CalaDeia/CDA-03.jpg",
+                    "https://fatchini.neocities.org/img/CalaDeia/CDA-04.jpg"
+                ],
+                "videos": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    },
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "audio": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "geoposicionament1": {
+                    "address": "",
+                    "lat": 39.76021540696648,
+                    "long": 2.6409329737579914,
+                    "city": "Deia",
+                    "Country": "España",
+                    "zip": "07179"
+                },
+                "geoposicionament2": {
+                    "address": "",
+                    "lat": 0,
+                    "long": 0,
+                    "city": "",
+                    "Country": "",
+                    "zip": ""
+                },
+                "horari": {
+                    "di": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dm": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dx": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dv": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "ds": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dg": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ]
+                },
+                "calendari": {
+                    "startDataEvent": "",
+                    "startTimeEvent": "",
+                    "endDataEvent": "",
+                    "endTimeEvent": ""
+                },
+                "dadesPropies": {
+                    "isla": "Mallorca",
+                    "textoArticulo": [
+                        "Cala Deia es una cala de piedras situada cerca del pueblo de Deia. Es un lugar idílico y muy turistico, con increibles vistas, pero incomodo por no disponer de arena.",
+                        "Cala Deia es una de las calas de montaña más conocidas de mallorca, con unas dimensiones de 70 metros de largo y 6 metros de ancho de piedra y roca, es una de las calas mas visitadas de la isla por su encanto y vistas, por eso debido a las aglomeraciones en verano recomendamos visitarla a última hora de la tarde, ya que el sol se esconde por detrás y muchos bañistas ya se han ido. La sensación de estar al atardecer mientras te das un baño en plena montaña no tiene precio. Si no os molestan las piedras, esta cala es una opción segura ya que su entorno natural y sus aguas la convierten en una localización ideal.",
+                        "Al ser una cala tan inhospita en la que solo hay rocas y los embarcaderos, esta cala no ofrece demasiados servicios a los bañistas, pero en temporada encontraremos dos bares/restaurantes para tomar algo o comer. Suelen estar concurridos y los precios algo elevados aunque acordes con el lugar.",
+                        "A Cala Deià se puede acceder desde el casco urbano de Deià, a través de unos pequeños caminos empedrados o siguiendo una sinuosa carretera que permite el paso de vehículos.<br>Si se elige la opción de llegar a esta cala a pie, se pueden seguir dos caminos; el primero es el Camí dels Ribassos, un camino empedrado que atraviesa los huertos de Deià y bordea el torrente que desemboca en la cala, en el que el último tramo coincide con la carretera asfaltada, y el segundo, es el Camí de sa Vinyeta que comienza junto a la embotelladora de agua de Deià. Es el acceso más utilizado por los vecinos del pueblo.<br>Si se quiere ir en coche, El desvío a Cala Deià lo encontramos por la carretera principal saliendo del pueblo en dirección Sóller, a tan solo 600 metros. En las inmediaciones de la Cala hay un parking de pago. Suele estar muy concurrido en los meses de verano por lo que recomendamos ser madrugadores."
+                    ],
+                    "dadesPlatja": {
+                        "tipoPlaya": "Roca",
+                        "hamacas": false,
+                        "sombrillas": false,
+                        "chringuito": false,
+                        "restaurantes": true,
+                        "socorrista": false,
+                        "alquiler barcas": false,
+                        "duchas": false,
+                        "retretes": false
+                    }
+                }
+            },
+            {
+                "nom": "Cala Torta",
+                "descripcio": "Preciosa cala en auténtico estado natural alejada del bullicio de otras playas mallorquinas.",
+                "detall": "",
+                "tipus": "",
+                "identificador": "ML03",
+                "preu": {
+                    "import": "",
+                    "coment-preu": ""
+                },
+                "contacte": {
+                    "telf": "",
+                    "email": "",
+                    "xarxes": {
+                        "web": "",
+                        "facebook": "",
+                        "twitter": "",
+                        "instagram": ""
+                    }
+                },
+                "puntuacio": 0,
+                "visualitzacions": "",
+                "likes": 0,
+                "icones": [
+                    ""
+                ],
+                "imatges": [
+                    "https://fatchini.neocities.org/img/CalaTorta/CTT-01.jpg",
+                    "https://fatchini.neocities.org/img/CalaTorta/CTT-02.jpg",
+                    "https://fatchini.neocities.org/img/CalaTorta/CTT-03.jpg"
+                ],
+                "videos": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    },
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "audio": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "geoposicionament1": {
+                    "address": "",
+                    "lat": 39.75005443191249,
+                    "long": 3.417851280096852,
+                    "city": "Arta",
+                    "Country": "España",
+                    "zip": "07589"
+                },
+                "geoposicionament2": {
+                    "address": "",
+                    "lat": 0,
+                    "long": 0,
+                    "city": "",
+                    "Country": "",
+                    "zip": ""
+                },
+                "horari": {
+                    "di": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dm": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dx": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dv": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "ds": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dg": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ]
+                },
+                "calendari": {
+                    "startDataEvent": "",
+                    "startTimeEvent": "",
+                    "endDataEvent": "",
+                    "endTimeEvent": ""
+                },
+                "dadesPropies": {
+                    "isla": "Mallorca",
+                    "textoArticulo": [
+                        "Cala Torta es una bonita playa virgen, situada al norte de la isla de Mallorca en una zona remota a unos 10 km de Arta, en un entorno natural de gran belleza, sin hoteles, casas ni construcciones de ningun tipo.",
+                        "Cala Torta es la playa más grande del municipio de Arta, te enamorarán sus arenas blancas bordeadas por pequeños acantilados con vegetación tipica mediterránea y sus aguas increíblemente cristalinas y de color turquesa. Es el lugar perfecto para escapar de las grandes playas masificadas y disfrutar de un paraje salvaje y natural. En su lado izquierdo se puede apreciar una colina que lleva directamente a la siguiente cala, la hermana pequeña de Cala Torta, la llamada Cala Mitjana.<br>Con unas medidas de 150 metros de largo y 100 de ancho, no tiene zonas de sombra, por lo que se recomienda llevar sombrilla. Además, es un sitio genial para realizar la practica del snorkel y otros deportes acuaticos. ",
+                        "La playa cuenta con muy pocos servicios pero los suficiente para pasar un día en la playa. Hay un pequeño chiringuito donde sirven refrescos  y donde podréis degustar deliciosos platos típicos de la isla, aunque los precios son un poco caros ya que es el único que hay. En temporada alta suele pasar un vendedor de fruta fresca a media mañana.",
+                        "Para ir a Cala Torta hay que salir de Artá por la carretera de Cala Ratjada. Nada más tomar la salida del pueblo, giramos a la izquierda a la altura del campo de fútbol y tomamos la carretera del Racó siguiendo las indicaciones hasta Cala Torta.<br>El acceso a la playa no es fácil, los dos últimos kilómetros antes de llegar a la playa están en mal estado,  llenos de baches y es un poco incomodo pero vale la pena. Dispone de zona de aparcamiento."
+                    ],
+                    "dadesPlatja": {
+                        "tipoPlaya": "Arena Fina",
+                        "hamacas": false,
+                        "sombrillas": false,
+                        "chringuito": true,
+                        "restaurantes": false,
+                        "socorrista": false,
+                        "alquiler barcas": false,
+                        "duchas": false,
+                        "retretes": false
+                    }
+                }
+            },
+            {
+                "nom": "Cala en Turqueta",
+                "descripcio": "Playa virgen de arena blanca y fina, rodeada de pinos y con un agua cristalina.",
+                "detall": "",
+                "tipus": "",
+                "identificador": "MN01",
+                "preu": {
+                    "import": "",
+                    "coment-preu": ""
+                },
+                "contacte": {
+                    "telf": "",
+                    "email": "",
+                    "xarxes": {
+                        "web": "",
+                        "facebook": "",
+                        "twitter": "",
+                        "instagram": ""
+                    }
+                },
+                "puntuacio": 0,
+                "visualitzacions": "",
+                "likes": 0,
+                "icones": [
+                    ""
+                ],
+                "imatges": [
+                    "https://fatchini.neocities.org/img/CalaEnTurqueta/CET-01.jpg",
+                    "https://fatchini.neocities.org/img/CalaEnTurqueta/CET-02.jpg",
+                    "https://fatchini.neocities.org/img/CalaEnTurqueta/CET-03.jpg",
+                    "https://fatchini.neocities.org/img/CalaEnTurqueta/CET-04.jpg"
+                ],
+                "videos": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    },
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "audio": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "geoposicionament1": {
+                    "address": "",
+                    "lat": 39.93254992263012,
+                    "long": 3.9147430040773745,
+                    "city": "Ciutadella",
+                    "Country": "España",
+                    "zip": "07760"
+                },
+                "geoposicionament2": {
+                    "address": "",
+                    "lat": 0,
+                    "long": 0,
+                    "city": "",
+                    "Country": "",
+                    "zip": ""
+                },
+                "horari": {
+                    "di": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dm": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dx": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dv": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "ds": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dg": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ]
+                },
+                "calendari": {
+                    "startDataEvent": "",
+                    "startTimeEvent": "",
+                    "endDataEvent": "",
+                    "endTimeEvent": ""
+                },
+                "dadesPropies": {
+                    "isla": "Menorca",
+                    "textoArticulo": [
+                        "Esta paradisíaca playa es una de las calas vírgenes más bonitas de la isla, de arena blanca y fina, aguas cristalinas de tonos azul-verde turquesa y situada en un paraje incomparable, rodeado de un entorno natural espectacular con hermosos acantilados, cubiertos de pinares y una densa vegetación que la enmarcan, esto le proporciona protección y hace que esta cala sea un buen refugio para las embarcaciones cuando sopla con fuerza el viento del norte (“Tramuntana”).",
+                        "Cala Turqueta, junto con cala Macarella y cala Mitjana son el grupo de playas de la costa sur más solicitadas de Menorca. Realmente son playas de postal y, tal vez, Cala Turqueta es la menos frecuentada de las tres.<br>Está rodeada de acantilados calcáreaos de poca altura y los pinos llegan hasta la misma playa. Cala Turqueta está formada por dos playitas separadas por un pequeño saliente rocoso. La primera playa que encontramos es la más grande y es la salida natural de un torrente. Esto hace que a veces la arena del centro de la playa esté húmeda. Mirando el horizonte a la derecha, hay unas rocas bastante planas donde nos podemos instalar comodamente si lo prefereimos. A la sombra del pinar del fondo de la playa encontraremos unas mesas de picnic ideales para quedarse a comer.<br>Al otro lado de la playa grande, atravesando un pequeño pinar, encontraremos la playa pequeña, un poco más discreta y con un pequeño sistema dunar detras suyo.<br>Esta playa cuyo nombre se debe a los desembarques de los piratas turcos que pasaron por la isla, cuenta con unas dimensiones de 110 metros de longitud y una anchura media de 25 metros, todo de arena fina y blanca. Además sus aguas son completamente cristalinas, lo que lo convierte en un sitio ideal para practicar snorkel.",
+                        "Esta cala cuenta con diversos servicios como es la presencia de socorrista e indicación de peligro mediante bandera, una zona nudista para los mas atrevidos, servicios y alquiler de barcas. Además de esto cuenta con un parking de fácil acceso, de grandes dimensiones y totalmente gratuito.",
+                        "Para llegar en coche, Cala Turqueta se encuentra a 14km de Ciutadella. Desde la ronda sur debemos coger el camino de Sant Joan de Misa en dirección a las playas de la costa sur. Dejando atrás la carretera de la playa de Son Saura del sur y a la altura de la ermita de Sant Joan de Misa, debemos girar a mano derecha para coger la carretera de cala Turqueta. Despues de unos 4 km nos tendremos que desviar, también a mano derecha, por un camino sin asfaltar hasta el parking de la playa. Despues de caminar 10 minutos por un encinar frondoso llegaremos a la playa."
+                    ],
+                    "dadesPlatja": {
+                        "tipoPlaya": "Arena Fina",
+                        "hamacas": false,
+                        "sombrillas": false,
+                        "chringuito": false,
+                        "restaurantes": false,
+                        "socorrista": true,
+                        "alquiler barcas": false,
+                        "duchas": false,
+                        "retretes": true
+                    }
+                }
+            },
+            {
+                "nom": "Playa de Punta Prima",
+                "descripcio": "La playa de Punta Prima es la playa turística por excelencia del municipio de Sant Lluís.",
+                "detall": "",
+                "tipus": "",
+                "identificador": "MN02",
+                "preu": {
+                    "import": "",
+                    "coment-preu": ""
+                },
+                "contacte": {
+                    "telf": "",
+                    "email": "",
+                    "xarxes": {
+                        "web": "",
+                        "facebook": "",
+                        "twitter": "",
+                        "instagram": ""
+                    }
+                },
+                "puntuacio": 0,
+                "visualitzacions": "",
+                "likes": 0,
+                "icones": [
+                    ""
+                ],
+                "imatges": [
+                    "https://fatchini.neocities.org/img/PlayaPuntaPrima/PPP-01.jpg",
+                    "https://fatchini.neocities.org/img/PlayaPuntaPrima/PPP-02.jpg",
+                    "https://fatchini.neocities.org/img/PlayaPuntaPrima/PPP-03.jpg"
+                ],
+                "videos": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    },
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "audio": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "geoposicionament1": {
+                    "address": "",
+                    "lat": 39.813825164580834,
+                    "long": 4.2803168163132685,
+                    "city": "Sant Lluís",
+                    "Country": "España",
+                    "zip": "07710"
+                },
+                "geoposicionament2": {
+                    "address": "",
+                    "lat": 0,
+                    "long": 0,
+                    "city": "",
+                    "Country": "",
+                    "zip": ""
+                },
+                "horari": {
+                    "di": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dm": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dx": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dv": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "ds": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dg": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ]
+                },
+                "calendari": {
+                    "startDataEvent": "",
+                    "startTimeEvent": "",
+                    "endDataEvent": "",
+                    "endTimeEvent": ""
+                },
+                "dadesPropies": {
+                    "isla": "Menorca",
+                    "textoArticulo": [
+                        "Punta Prima es una playa con bandera azul situada en la punta sureste de la isla de Menorca, en el termino municipal de Sant Lluís. Tambiénes llamada playa del Aire en referencia a la isla del Aire que encontramos a poca distancia de la costa y que identificaremos por su faro imponente y caracteristico.",
+                        "Esta playa de 200 metros de longitud y 75 metros de anchura, de arena blanca y fina, aguas cristalinar con tonos de azul turquesa, es ideal para pasar el dia en familia, especialmente con niños, ya que hay poco oleaje, poca profundidad en el agua y mucha zona de arena. Perfecta para realizar la practica del snorkel, hay muchas rocas en el fondo donde habitan muchos peces.<br>El nombre de Sandy Bay que los ingleses dieron a la playa de Punta Prima durante las dominaciones británicas hace pensar en un campo de dunas original que hoy ha sido sustituido por un paseo. Hoy en dia la playa está rodeada por una gran urbanización pero las antiguas casitas que se conservan junto a la orilla nos indican que ha sido un lugar apreciado desde siempre por la gente de Sant Lluís. De Junio a Septiembre los Lunes, Miércoles Jueves y Domingo  hacen un Mercado en el “passeig de s’Arenal” (de 17.00 a 24.00 h).",
+                        "Punta Prima al estar ubicada en una urbanización cuenta con todo tipo de comodidades y servicios, como pueden ser tiendas, supermercados, restaurantes, farmacias, servicio medico, etc. En la playa cuenta con varios servicios como alquiler de hamacas y sombrillas, chiringuito, socorrista con bandera indicadora de peligro, duchas, retretes o alquiler de barcas.",
+                        "La playa de Punta Prima se encuentra a 10 km de Mahón y 5 km de Sant Lluís, dejando atrás las carreteras de Alcalfar y Son Ganxo."
+                    ],
+                    "dadesPlatja": {
+                        "tipoPlaya": "Arena Fina",
+                        "hamacas": true,
+                        "sombrillas": true,
+                        "chringuito": true,
+                        "restaurantes": true,
+                        "socorrista": true,
+                        "alquiler barcas": true,
+                        "duchas": true,
+                        "retretes": true
+                    }
+                }
+            },
+            {
+                "nom": "Son Bou",
+                "descripcio": "Playa de gran longitud de arena fina y blanca.",
+                "detall": "",
+                "tipus": "",
+                "identificador": "MN03",
+                "preu": {
+                    "import": "",
+                    "coment-preu": ""
+                },
+                "contacte": {
+                    "telf": "",
+                    "email": "",
+                    "xarxes": {
+                        "web": "",
+                        "facebook": "",
+                        "twitter": "",
+                        "instagram": ""
+                    }
+                },
+                "puntuacio": 0,
+                "visualitzacions": "",
+                "likes": 0,
+                "icones": [
+                    ""
+                ],
+                "imatges": [
+                    "https://fatchini.neocities.org/img/SonBou/SB-01.jpg",
+                    "https://fatchini.neocities.org/img/SonBou/SB-02.jpg",
+                    "https://fatchini.neocities.org/img/SonBou/SB-03.jpg"
+                ],
+                "videos": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    },
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "audio": [
+                    {
+                        "tipus": "",
+                        "url": ""
+                    }
+                ],
+                "geoposicionament1": {
+                    "address": "",
+                    "lat": 39.900019733376126,
+                    "long": 4.072353303836674,
+                    "city": "Alaior",
+                    "Country": "España",
+                    "zip": "07730"
+                },
+                "geoposicionament2": {
+                    "address": "",
+                    "lat": 39.900019733376126,
+                    "long": 4.072353303836674,
+                    "city": "",
+                    "Country": "",
+                    "zip": ""
+                },
+                "horari": {
+                    "di": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dm": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dx": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dj": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dv": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "ds": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ],
+                    "dg": [
+                        {
+                            "in": "-",
+                            "out": "-"
+                        },
+                        {
+                            "in": "-",
+                            "out": "-"
+                        }
+                    ]
+                },
+                "calendari": {
+                    "startDataEvent": "",
+                    "startTimeEvent": "",
+                    "endDataEvent": "",
+                    "endTimeEvent": ""
+                },
+                "dadesPropies": {
+                    "isla": "Menorca",
+                    "textoArticulo": [
+                        "La playa de Son Bou está a ocho kilómetros de Alaior en la costa sur de la isla de Menorca, y es la playa mas larga de la isla con sus más de dos kilómetros de longitud. En su parte posterior encontrarás una de las urbanizaciones más grandes de Menorca que está separada de la playa por la zona húmeda más destacada de la costa sur, conocida también como Prat de Son Bou. Así pues, Son Bou nos ofrece dos playas en una, por un lado es una playa urbanizada, orientada al turismo. Pero si te alejas un poco, en cambio encontrarás la parte más virgen y tranquila, donde incluso podrás practicar el nudismo.",
+                        "Se trata de una playa de con unas dimensiones de 2400 metros de largo y una anchura de 120 metros, con arena blanca y fina, con agua limpia, cristalina y con unos tonos azul turquesa preciosos. Es una playa ideal para pasar el dia en familia, especialmente con niños, ya que normalmente hay poco oleaje, poca profundidad en el agua y mucha zona de arena para que estos disfruten.<br>La playa de Son Bou esta próxima a una zona de humedales que es una de las mas importantes de Menorca, por esto mismo forma parte de la Red Natura 2000 que cuenta con especial protección para las aves (ZEPA). Es por ello que pueden apreciarse patos, ocas y salvajes gallinas de agua en la misma playa y son un entretenimiento para los más pequeños, así como excelentes compañeros de juegos, además son muy dóciles y están acostumbrados a la presencia humana.<br> También podéis aprovechar para visitar Torre d´en Gaumés que queda muy cerca de la carretera de Son Bou, se trata del poblado prehistórico mas grande e importante de las islas Baleares. Al final del día cuando cae el sol, se puede disfrutar de uno de los atardeceres más hermosos de la isla además de una preciosa puesta de sol.",
+                        "Al estar cerca de una urbanización, hay al alcance todo tipo de servicios como supermercados, bares, restaurantes, etc. La playa tiene varios puestos de socorro con socorristas distribuidos a lo largo de la playa, además cuenta con el distintivo de bandera azul y con toda clase de servicios y equipamientos distribuidos a lo largo de la playa, como chiringuitos, alquiler de sombrillas y hamacas, patines, barcas, etc.<br>Tiene buenos accesos y un parking muy grande que además es gratuito y que conecta con la playa mediante pasarelas de madera que te llevan por las diferentes zonas de la playa.",
+                        "La playa de Son Bou se encuentra a 8 km al sur de Alaior. Si venimos por la carretera general no será necesario que entremos en el núcleo urbano ya que hay una salida indicada que nos dirige directamente a Son Bou y el yacimiento arqueológico de Torre d'en Galmés. Una vez en Son Bou encontrarás el paraking para aparcar tu vehiculo muy cerca de la zona urbanizada de la playa."
+                    ],
+                    "dadesPlatja": {
+                        "tipoPlaya": "Arena Fina",
+                        "hamacas": true,
+                        "sombrillas": true,
+                        "chringuito": true,
+                        "restaurantes": true,
+                        "socorrista": true,
+                        "alquiler barcas": true,
+                        "duchas": true,
+                        "retretes": true
+                    }
+                }
+            }
+        ]

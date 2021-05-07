@@ -1,5 +1,5 @@
 import { handleActions } from 'redux-actions';
-import { AUTHORIZATION, HOTELES, OPCION, FILTRO, USUARIOS, COMENTARIOS, PUNTUACIONES, FILTERLIST } from '../constants';
+import { AUTHORIZATION, HOTELES, OPCION, FILTRO, USUARIOS, COMENTARIOS, PUNTUACIONES, FILTERLIST, DATOSEXTERNOS } from '../constants';
 import history from '../history';
 
 export const authorization = handleActions({
@@ -60,3 +60,11 @@ export const filtro = handleActions({
         return filtro
     }
 }, "");
+
+export const datosExternos = handleActions({
+    [DATOSEXTERNOS]: (state, action) => {
+        const payload = action.payload;
+        state.push(payload)
+        return state
+    }
+}, []);

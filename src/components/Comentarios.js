@@ -85,6 +85,28 @@ const Comentarios = ({ visible, setVisible, id }) => {
         setLoading(false);
     }
 
+    const comentariosGetPage = async () => {
+        setLoading(true);
+        const response = await dispatch(comentariosGet());
+        if (response.status === 400) {
+            alert.show(response.err)
+        } else if (response.status === 404 || response.status === 500) {
+            alert.show('ERROR DE CONEXIÓN CON EL SERVIDOR.')
+        }
+        setLoading(false);
+    }
+
+    const puntuacionesGetPage = async () => {
+        setLoading(true);
+        const response = await dispatch(puntuacionesGet());
+        if (response.status === 400) {
+            alert.show(response.err)
+        } else if (response.status === 404 || response.status === 500) {
+            alert.show('ERROR DE CONEXIÓN CON EL SERVIDOR.')
+        }
+        setLoading(false);
+    }
+
     const CargarComentarios = () => {
         return comentarios.find(comentario => comentario.identificador === id)?.comentarios.map((comentario, key) => <Comentario comentario={comentario}></Comentario>)
     }
@@ -93,14 +115,14 @@ const Comentarios = ({ visible, setVisible, id }) => {
         return puntuaciones.find(puntuacion => puntuacion.identificador === id)?.puntuaciones.map((puntuacion, key) => <Puntuacion puntuacion={puntuacion}></Puntuacion>)
     }
 
-    useEffect(async () => {
+    useEffect(() => {
         if (!comentarios || comentarios.length === 0) {
-            comentarios = await dispatch(comentariosGet());
+            comentariosGetPage();
         }
         if (!puntuaciones || puntuaciones.length === 0) {
-            puntuaciones = await dispatch(puntuacionesGet());
+            puntuacionesGetPage();
         }
-    }, [])
+    })
 
     const setValorEstrella = (valor) => {
         setValue(valor)

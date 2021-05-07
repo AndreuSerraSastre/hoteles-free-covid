@@ -13,7 +13,7 @@ import ProgressBar from 'react-customizable-progressbar'
 import ReactTooltip from 'react-tooltip'
 
 const HotelDetail = ({ id }) => {
-    const { height, width } = useWindowDimensions();
+    const { width } = useWindowDimensions();
     const [visible, setVisible] = useState(false);
     const [video, setvideo] = useState(false);
     const hotel = useSelector(state => state.hoteles.find(hotel => hotel.identificador === id));
@@ -74,7 +74,6 @@ const HotelDetail = ({ id }) => {
                             }}>
                                 <div className="star-main">
                                     <ReactStars
-                                        classNames="hoteldetail-stars"
                                         count={5}
                                         value={hotel.puntuacio}
                                         edit={false}

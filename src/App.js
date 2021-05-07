@@ -29,7 +29,7 @@ function App() {
     if (!hoteles || hoteles.length === 0) {
       Cargarhoteles();
     }
-  }, [dispatch])
+  })
 
   return (
     <div className="App">

@@ -22,7 +22,7 @@ const HotelListElement = ({ Horizontal, id, hotel }) => {
                     backgroundImage: `url(${hotel.imatges[0]})`
                 }}>
                     <div className="star-main">
-                        <Rating name="read-only" size="large" classNames="Hotel-list-element-stars" value={hotel.puntuacio} readOnly />
+                        <Rating name="read-only" size="large" className="Hotel-list-element-stars" value={hotel.puntuacio} readOnly />
                     </div>
                 </div>
             </div>

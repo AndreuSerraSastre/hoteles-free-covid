@@ -5,11 +5,11 @@ import HotelListElement from './HotelListElement';
 import { Select } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
 import { OPCION } from '../constants';
-import { Modal, Button } from 'antd';
 import Filter from './Filter';
 import { useEffect } from 'react';
 import { comentariosGet } from '../actions/comentarioAction';
 import { puntuacionesGet } from '../actions/puntuacionesAction';
+import Loading from './Loading';
 
 const HotelList = ({ Horizontal, id }) => {
 
@@ -21,6 +21,7 @@ const HotelList = ({ Horizontal, id }) => {
   const [value, setValue] = useState(opcion);
   const [filter, setFilter] = useState([[], [], [], [], []]);
   let filtro = useSelector(state => state.filtro);
+  const [loading, setLoading] = useState(false);
 
   const dispatch = useDispatch();
 
@@ -32,19 +33,19 @@ const HotelList = ({ Horizontal, id }) => {
   const filtrarDatos = (value, filter) => {
     let hotelesFilter = hoteles.filter(hotel => hotel.nom.toLowerCase().includes(filtro.toLowerCase()));
 
-    if (filter[0].length != 0) {
+    if (filter[0].length !== 0) {
       hotelesFilter = hotelesFilter.filter(hotel => filter[0].includes(hotel.puntuacio));
     }
-    if (filter[1].length != 0) {
+    if (filter[1].length !== 0) {
       hotelesFilter = hotelesFilter.filter(hotel => filter[1].includes(hotel.dadesPropies.Medidas.length));
     }
-    if (filter[2].length != 0) {
+    if (filter[2].length !== 0) {
       hotelesFilter = hotelesFilter.filter(hotel => filter[2].includes(comentarios.find(x => x.identificador === hotel.identificador).comentarios.length));
     }
-    if (filter[3].length != 0) {
+    if (filter[3].length !== 0) {
       hotelesFilter = hotelesFilter.filter(hotel => filter[3].includes(puntuaciones?.find(x => x.identificador === hotel.identificador).puntuaciones.length));
     }
-    if (filter[4].length != 0) {
+    if (filter[4].length !== 0) {
       hotelesFilter = hotelesFilter.filter(hotel => filter[4].includes(hotel.dadesPropies.disponibilidad + " %"));
     }
 
@@ -185,14 +186,36 @@ const HotelList = ({ Horizontal, id }) => {
     return hotelesFilter;
   }
 
-  useEffect(async () => {
+  const comentariosGetPage = async () => {
+    setLoading(true);
+    const response = await dispatch(comentariosGet());
+    if (response.status === 400) {
+      alert.show(response.err)
+    } else if (response.status === 404 || response.status === 500) {
+      alert.show('ERROR DE CONEXIÓN CON EL SERVIDOR.')
+    }
+    setLoading(false);
+  }
+
+  const puntuacionesGetPage = async () => {
+    setLoading(true);
+    const response = await dispatch(puntuacionesGet());
+    if (response.status === 400) {
+      alert.show(response.err)
+    } else if (response.status === 404 || response.status === 500) {
+      alert.show('ERROR DE CONEXIÓN CON EL SERVIDOR.')
+    }
+    setLoading(false);
+  }
+
+  useEffect(() => {
     if (!comentarios || comentarios.length === 0) {
-      comentarios = await dispatch(comentariosGet());
+      comentariosGetPage();
     }
     if (!puntuaciones || puntuaciones.length === 0) {
-      puntuaciones = await dispatch(puntuacionesGet());
+      puntuacionesGetPage();
     }
-  }, [])
+  })
 
   const CargarHoteles = (value, filter) => {
     if (hoteles != null) {
@@ -223,6 +246,7 @@ const HotelList = ({ Horizontal, id }) => {
           <></>
         }
       </div>
+      <Loading loading={loading}></Loading>
       <div className={`PerfectScrollbar${Horizontal}`}>
         {CargarHoteles(value, filter)}
       </div>

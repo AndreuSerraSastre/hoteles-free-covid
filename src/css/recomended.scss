@@ -86,7 +86,53 @@
 }
 
 .marker {
-  background-image: url('https://www.flaticon.es/svg/vstatic/svg/4264/4264795.svg?token=exp=1620123387~hmac=eded8350278da598ec9d29521c71274c');
+  background-image: url('images/placeholder.svg');
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.playas{
+  cursor: pointer;
+  background-image: url('images/playa.svg');
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.bares{
+  cursor: pointer;
+  background-image: url('images/bar.svg');
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.ferias{
+  cursor: pointer;
+  background-image: url('images/feria-estatal.svg');
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.calas{
+  cursor: pointer;
+  background-image: url('images/playa.svg');
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.mercados{
+  cursor: pointer;
+  background-image: url('images/carrito-de-compras.svg');
   background-size: cover;
   background-position: center;
   width: 40px;

@@ -9,3 +9,4 @@ export const FILTRO = 'filtro';
 export const COMENTARIOS = 'comentarios';
 export const PUNTUACIONES = 'puntuaciones';
 export const FILTERLIST = 'FILTERLIST';
+export const DATOSEXTERNOS = 'datosexternos';

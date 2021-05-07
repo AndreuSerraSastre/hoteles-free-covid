@@ -63,7 +63,7 @@ const Filter = ({ hoteles, comentarios, puntuaciones, setFilter }) => {
 
     useEffect(() => {
         setFilter(filterList)
-    }, [])
+    },)
 
     const handleFilterSubmit = applyFilters => {
         let filterList = applyFilters();

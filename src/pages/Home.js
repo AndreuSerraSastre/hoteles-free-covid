@@ -6,7 +6,7 @@ import useWindowDimensions from '../hook/useWindowDimensions';
 import './../css/home.scss'
 
 const Home = ({ id }) => {
-    const { height, width } = useWindowDimensions();
+    const { width } = useWindowDimensions();
 
     return (
         <div className="Home-main">

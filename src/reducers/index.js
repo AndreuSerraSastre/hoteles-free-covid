@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { authorization, hoteles, opcion, filtro, usuarios, comentarios, puntuaciones, filterList } from "./Reducers";
+import { authorization, hoteles, opcion, filtro, usuarios, comentarios, puntuaciones, filterList, datosExternos } from "./Reducers";
 
 export default combineReducers({
     authorization,
@@ -9,5 +9,6 @@ export default combineReducers({
     usuarios,
     comentarios,
     puntuaciones,
-    filterList
+    filterList,
+    datosExternos
 });

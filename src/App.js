@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Loading from './components/Loading'
 import { useAlert } from 'react-alert';
+import AddToHomeScreen from '@ideasio/add-to-homescreen-react';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+      <AddToHomeScreen />
       {!loading ?
         <MainContainer /> :
         <></>

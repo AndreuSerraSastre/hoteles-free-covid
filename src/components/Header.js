@@ -63,7 +63,7 @@ const Header = () => {
                 <></> :
                 <img alt="home" className="header-image" onClick={goHome} src={process.env.PUBLIC_URL + '/images/signo-de-hotel.svg'}></img>
             }
-            <Search placeholder="Buscar..." allowClear onSearch={onSearch} defaultValue={filtro} style={{ width: 400 }} />
+            <Search placeholder="Buscar" allowClear onSearch={onSearch} defaultValue={filtro} style={{ width: 400 }} />
             <div className="header-buttons">
                 <Dropdown className="header-menu" overlay={menu} placement="bottomCenter" arrow>
                     <h3 onClick={e => e.preventDefault()}>

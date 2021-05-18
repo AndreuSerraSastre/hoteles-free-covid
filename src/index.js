@@ -9,6 +9,7 @@ import history from './history';
 import { transitions, positions, Provider as AlertProvider, types } from 'react-alert'
 import AlertTemplate from 'react-alert-template-basic'
 import * as serviceWorker from './serviceWorker';
+import AddToHomeScreen from '@ideasio/add-to-homescreen-react';
 
 const options = {
   // you can also just use 'bottom center'
@@ -27,11 +28,14 @@ ReactDOM.render(
   <Provider store={store}>
     <Router history={history}>
       <AlertProvider template={AlertTemplate} {...options}>
-        <App />
+        <App>
+          <AddToHomeScreen />
+        </App>
       </AlertProvider>
     </Router>
   </Provider>,
   document.getElementById('root'));
+serviceWorker.register();
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

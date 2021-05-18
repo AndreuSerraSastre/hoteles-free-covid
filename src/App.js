@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Loading from './components/Loading'
 import { useAlert } from 'react-alert';
+import AddToHomescreen from 'react-add-to-homescreen';
 
 function App() {
 
@@ -25,6 +26,12 @@ function App() {
     setLoading(false);
   }
 
+  const handleAddToHomescreenClick = () => {
+    alert(`
+      1. Open Share menu
+      2. Tap on "Add to Home Screen" button`);
+  };
+
   useEffect(() => {
     if (!hoteles || hoteles.length === 0) {
       Cargarhoteles();
@@ -33,6 +40,7 @@ function App() {
 
   return (
     <div className="App">
+      <AddToHomescreen onAddToHomescreenClick={handleAddToHomescreenClick} />
       <Header></Header>
       {!loading ?
         <MainContainer /> :

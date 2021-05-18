@@ -8,7 +8,7 @@ import { Router } from 'react-router-dom';
 import history from './history';
 import { transitions, positions, Provider as AlertProvider, types } from 'react-alert'
 import AlertTemplate from 'react-alert-template-basic'
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import AddToHomeScreen from '@ideasio/add-to-homescreen-react';
 
 const options = {
@@ -35,12 +35,12 @@ ReactDOM.render(
     </Router>
   </Provider>,
   document.getElementById('root'));
-serviceWorker.register();
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.register();
+serviceWorkerRegistration.register();
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

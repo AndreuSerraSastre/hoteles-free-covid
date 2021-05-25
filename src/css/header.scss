@@ -61,7 +61,21 @@
   .header-buttons {
     margin-right: auto;
   }
-  .header-main{
+
+  .header-main {
     padding: 15px;
   }
+}
+
+.media {
+  width: 30px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: x-large;
+  font-weight: 700 !important;
 }

@@ -45,14 +45,14 @@ const Recomended = ({ id }) => {
     const CreatePopUp = (hotelbool, object) => {
         return (
             ReactDOMServer.renderToStaticMarkup(
-                <div className="popup-main">
+                <div itemscope itemtype="http://schema.org/Hotel" className="popup-main">
                     {hotelbool ?
                         <img className='imagen-popup' alt="imagen hotel" src={hotel.imatges[0]} ></img > :
                         <img className='imagen-popup' alt="imagen" src={object.imatges[0]} ></img >
                     }
                     <div>
                         {hotelbool ?
-                            <h3 className="titulo-popup">{hotel.nom}</h3> :
+                            <h3 itemprop="legalName" className="titulo-popup">{hotel.nom}</h3> :
                             <h3 className="titulo-popup">{object.nom}</h3>
                         }
                         {!hotelbool ?
@@ -64,9 +64,9 @@ const Recomended = ({ id }) => {
                             </div>
                             :
                             <div>
-                                <h4 className="info-popup">Lat: {hotel.geoposicionament1.lat?.toFixed(2)} Lon: {hotel.geoposicionament1.long?.toFixed(2)}</h4>
-                                <h5 className="info-popup">{hotel.geoposicionament1.address}</h5>
-                                <h5 className="info-popup">Telf: {hotel.contacte.telf}</h5>
+                                <h4 itemprop="geo" className="info-popup">Lat: {hotel.geoposicionament1.lat?.toFixed(2)} Lon: {hotel.geoposicionament1.long?.toFixed(2)}</h4>
+                                <h5 itemprop="address" className="info-popup">{hotel.geoposicionament1.address}</h5>
+                                <h5 itemprop="telephone" className="info-popup">Telf: {hotel.contacte.telf}</h5>
                             </div>
                         }
                     </div>

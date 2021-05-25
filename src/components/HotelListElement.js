@@ -16,13 +16,13 @@ const HotelListElement = ({ Horizontal, id, hotel }) => {
 
     return (
         <div className={`Hotel-list-element${Horizontal} `} onClick={() => hotelSelected()}>
-            <div className={`Hotel-list-element-no-divider ${id === hotel.identificador ? 'Hotel-list-element-selected' : ''}`}>
-                <h1 className="Hotel-list-element-name">{hotel.nom}</h1>
+            <div itemscope itemtype ="http://schema.org/Hotel" className={`Hotel-list-element-no-divider ${id === hotel.identificador ? 'Hotel-list-element-selected' : ''}`}>
+                <h1 itemprop="legalName" className="Hotel-list-element-name">{hotel.nom}</h1>
                 <div className="Hotel-list-element-image" style={{
                     backgroundImage: `url(${hotel.imatges[0]})`
                 }}>
                     <div className="star-main">
-                        <Rating name="read-only" size="large" className="Hotel-list-element-stars" value={hotel.puntuacio} readOnly />
+                        <Rating itemprop="starRating" name="read-only" size="large" className="Hotel-list-element-stars" value={hotel.puntuacio} readOnly />
                     </div>
                 </div>
             </div>

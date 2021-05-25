@@ -40,8 +40,8 @@ const HotelDetail = ({ id }) => {
     return (
         <div className="hoteldetail-main">
             {hotel ?
-                <div className="hoteldetail-main-border">
-                    <h1 className="hoteldetail-title">{hotel.nom}</h1>
+                <div itemscope itemtype="http://schema.org/Hotel" className="hoteldetail-main-border">
+                    <h1 itemprop="legalName" className="hoteldetail-title">{hotel.nom}</h1>
                     <div className="hoteldetail-main-columns">
                         <div className="hoteldetail-main-information">
                             <h3>{hotel.descripcio}</h3>

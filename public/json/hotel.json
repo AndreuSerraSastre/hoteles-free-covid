@@ -5,7 +5,7 @@
         "tipus": "Hotel",
         "identificador": "1",
         "preu": {
-            "import": "3",
+            "import": "$$$",
             "coment-preu": ""
         },
         "contacte": {
@@ -52,7 +52,7 @@
         "tipus": "Hotel",
         "identificador": "2",
         "preu": {
-            "import": "5",
+            "import": "$$$$$",
             "coment-preu": ""
         },
         "contacte": {
@@ -98,7 +98,7 @@
         "tipus": "Hotel",
         "identificador": "3",
         "preu": {
-            "import": "4",
+            "import": "$$$$",
             "coment-preu": ""
         },
         "contacte": {
@@ -143,7 +143,7 @@
         "tipus": "Hotel",
         "identificador": "4",
         "preu": {
-            "import": "3",
+            "import": "$$$",
             "coment-preu": ""
         },
         "contacte": {
@@ -189,7 +189,7 @@
         "tipus": "Hotel",
         "identificador": "5",
         "preu": {
-            "import": "1",
+            "import": "$",
             "coment-preu": ""
         },
         "contacte": {

@@ -22,7 +22,10 @@ const HotelListElement = ({ Horizontal, id, hotel }) => {
             "@type": "Hotel",
             "name": `${hotel.nom}`,
             "image": hotel.imatges[0],
-            "description": hotel.descripcio
+            "description": hotel.descripcio,
+            "address":hotel.geoposicionament1.address,
+            "priceRange": hotel.preu.import,
+            "telephone": hotel.contacte.telf
         };
 
         return JSON.stringify(data);

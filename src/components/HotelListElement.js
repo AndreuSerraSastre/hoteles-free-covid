@@ -3,6 +3,7 @@ import './../css/hotelList.scss'
 import Rating from '@material-ui/lab/Rating';
 import { Divider } from 'antd';
 import history from './../history';
+import { Helmet } from 'react-helmet';
 
 const HotelListElement = ({ Horizontal, id, hotel }) => {
 
@@ -14,9 +15,22 @@ const HotelListElement = ({ Horizontal, id, hotel }) => {
         }
     }
 
+    const structuredDataSingle = () => {
+
+        let data = {
+            "@context": "http://schema.org/",
+            "@type": "Hotel",
+            "name": `${hotel.nom}`,
+            "image": hotel.imatges[0],
+            "description": hotel.descripcio
+        };
+
+        return JSON.stringify(data);
+    };
+
     return (
         <div className={`Hotel-list-element${Horizontal} `} onClick={() => hotelSelected()}>
-            <div itemscope itemtype ="http://schema.org/Hotel" className={`Hotel-list-element-no-divider ${id === hotel.identificador ? 'Hotel-list-element-selected' : ''}`}>
+            <div itemscope itemtype="http://schema.org/Hotel" className={`Hotel-list-element-no-divider ${id === hotel.identificador ? 'Hotel-list-element-selected' : ''}`}>
                 <h1 itemprop="legalName" className="Hotel-list-element-name">{hotel.nom}</h1>
                 <div className="Hotel-list-element-image" style={{
                     backgroundImage: `url(${hotel.imatges[0]})`
@@ -30,6 +44,9 @@ const HotelListElement = ({ Horizontal, id, hotel }) => {
                 <Divider /> :
                 <></>
             }
+            <Helmet>
+                <script className='structured-data-list' type="application/ld+json">{structuredDataSingle()}</script>
+            </Helmet>
         </div>
     );
 }

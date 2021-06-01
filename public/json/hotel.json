@@ -20,12 +20,12 @@
         },
         "puntuacio": 3,
         "imatges": [
-            "https://hoteles-free-covid.herokuapp.com/images/HOME_CABECERA_01.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/gtask-a9728.appspot.com/o/HOME_CABECERA_01.jpg?alt=media&token=97289c6d-2f4b-4d37-aec2-6229d6c1a7f9"
         ],
         "videos": [
             {
                 "tipus": "intern",
-                "url": "https://hoteles-free-covid.herokuapp.com/videos/yt1s.com%20-%20Blau%20Punta%20Reina%20Resort%20Hotel%20en%20Cala%20Mendia_360p.mp4"
+                "url": "https://firebasestorage.googleapis.com/v0/b/gtask-a9728.appspot.com/o/yt1s.com%20-%20Blau%20Punta%20Reina%20Resort%20Hotel%20en%20Cala%20Mendia_360p.mp4?alt=media&token=a01eac91-e056-4aa8-8bfd-b6fb75cd5d8b"
             }
         ],
         "geoposicionament1": {
@@ -67,12 +67,12 @@
         },
         "puntuacio": 4,
         "imatges": [
-            "https://hoteles-free-covid.herokuapp.com/images/Protur%20Naisa%20Palma%20Hotel.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/gtask-a9728.appspot.com/o/Protur%20Naisa%20Palma%20Hotel.jpg?alt=media&token=802a8ab3-7d73-45e0-898e-070016a39cb2"
         ],
         "videos": [
             {
                 "tipus": "intern",
-                "url": "https://hoteles-free-covid.herokuapp.com/videos/yt1s.com - Protur Naisa Palma Hotel Palma de Mallorca Spain_360p.mp4"
+                "url": "https://firebasestorage.googleapis.com/v0/b/gtask-a9728.appspot.com/o/yt1s.com%20-%20Protur%20Naisa%20Palma%20Hotel%20Palma%20de%20Mallorca%20Spain_360p.mp4?alt=media&token=c8fdc899-b231-404f-87a2-ada0d1f6b711"
             }
         ],
         "geoposicionament1": {
@@ -113,12 +113,12 @@
         },
         "puntuacio": 5,
         "imatges": [
-            "https://hoteles-free-covid.herokuapp.com/images/tui-blue-alcudia-pins.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/gtask-a9728.appspot.com/o/tui-blue-alcudia-pins.jpg?alt=media&token=666524c4-94e2-43fe-9ac0-22071d526670"
         ],
         "videos": [
             {
                 "tipus": "intern",
-                "url": "https://hoteles-free-covid.herokuapp.com/videos/TUI BLUE Alcudia Pins.mp4"
+                "url": "https://firebasestorage.googleapis.com/v0/b/gtask-a9728.appspot.com/o/TUI%20BLUE%20Alcudia%20Pins.mp4?alt=media&token=83001cce-dacf-4e1d-b64d-33338ab304d0"
             }
         ],
         "geoposicionament1": {
@@ -158,12 +158,12 @@
         },
         "puntuacio": 4,
         "imatges": [
-            "https://hoteles-free-covid.herokuapp.com/images/las%20gaviotas%20suites%20hotel%20&%20spa.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/gtask-a9728.appspot.com/o/las%20gaviotas%20suites%20hotel%20%26%20spa.jpg?alt=media&token=c65642b0-71cf-48cd-b72b-2d4bc1ea61a9"
         ],
         "videos": [
             {
                 "tipus": "intern",
-                "url": "https://hoteles-free-covid.herokuapp.com/videos/yt1s.com - Las Gaviotas Suites Hotel  Spa en Playa de Muro_360p.mp4"
+                "url": "https://firebasestorage.googleapis.com/v0/b/gtask-a9728.appspot.com/o/yt1s.com%20-%20Las%20Gaviotas%20Suites%20Hotel%20%20Spa%20en%20Playa%20de%20Muro_360p.mp4?alt=media&token=a0d3424a-42d3-43dc-82c2-1aebd70c666b"
             }
         ],
         "geoposicionament1": {
@@ -201,12 +201,12 @@
         },
         "puntuacio": 2,
         "imatges": [
-            "https://hoteles-free-covid.herokuapp.com/images/niza.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/gtask-a9728.appspot.com/o/niza.jpg?alt=media&token=d1b678bc-1487-4389-b9ba-a39a44b18728"
         ],
         "videos": [
             {
                 "tipus": "intern",
-                "url": "https://hoteles-free-covid.herokuapp.com/videos/yt1s.com - Apartamentos Niza en Paguera_360p.mp4"
+                "url": "https://firebasestorage.googleapis.com/v0/b/gtask-a9728.appspot.com/o/yt1s.com%20-%20Apartamentos%20Niza%20en%20Paguera_360p.mp4?alt=media&token=ee2cc29b-2f84-4c4a-a124-9314671c01d1"
             }
         ],
         "geoposicionament1": {

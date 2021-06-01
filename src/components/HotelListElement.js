@@ -23,9 +23,20 @@ const HotelListElement = ({ Horizontal, id, hotel }) => {
             "name": `${hotel.nom}`,
             "image": hotel.imatges[0],
             "description": hotel.descripcio,
-            "address":hotel.geoposicionament1.address,
+            "address": hotel.geoposicionament1.address,
             "priceRange": hotel.preu.import,
-            "telephone": hotel.contacte.telf
+            "telephone": hotel.contacte.telf,
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": hotel.puntuacio
+            },
+            "email": hotel.contacte.email,
+            "legalName": hotel.nom,
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": hotel.geoposicionament1.lat,
+                "longitude": hotel.geoposicionament1.long
+            },
         };
 
         return JSON.stringify(data);
